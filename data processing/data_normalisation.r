@@ -76,4 +76,4 @@ group_by_state <- filtered %>% group_by(state) %>% count()
 # cumulative sum of observations in each state
 group_by_state_date <- filtered %>% group_by(state, acq_date) %>% count()
 group_by_state_date$cumu_sum <- ave(group_by_state_date$n, group_by_state_date$state, FUN=cumsum)
-write.csv(group_by_state_date, file="state_obv.csv")
+write.csv(group_by_state_date, file="state_obv.csv",row.name=F)
