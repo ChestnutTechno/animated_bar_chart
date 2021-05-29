@@ -1,0 +1,19 @@
+html{
+    background-color: whitesmoke;
+}
+
+#title_div{
+    background-color: #000000;
+}
+
+#title {
+    color: white;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+#line_chart_div{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 500px;
+}
