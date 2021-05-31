@@ -1,821 +1,165 @@
-"state","acq_date","n","cumsum"
-"New South Wales",2019-08-01,4,4
-"New South Wales",2019-08-02,7,11
-"New South Wales",2019-08-03,9,20
-"New South Wales",2019-08-04,2,22
-"New South Wales",2019-08-05,3,25
-"New South Wales",2019-08-06,22,47
-"New South Wales",2019-08-07,7,54
-"New South Wales",2019-08-08,24,78
-"New South Wales",2019-08-09,24,102
-"New South Wales",2019-08-10,73,175
-"New South Wales",2019-08-11,49,224
-"New South Wales",2019-08-12,12,236
-"New South Wales",2019-08-13,15,251
-"New South Wales",2019-08-14,5,256
-"New South Wales",2019-08-15,6,262
-"New South Wales",2019-08-16,10,272
-"New South Wales",2019-08-17,7,279
-"New South Wales",2019-08-18,7,286
-"New South Wales",2019-08-19,18,304
-"New South Wales",2019-08-20,15,319
-"New South Wales",2019-08-21,9,328
-"New South Wales",2019-08-22,6,334
-"New South Wales",2019-08-23,8,342
-"New South Wales",2019-08-24,11,353
-"New South Wales",2019-08-25,8,361
-"New South Wales",2019-08-26,11,372
-"New South Wales",2019-08-27,16,388
-"New South Wales",2019-08-28,24,412
-"New South Wales",2019-08-29,10,422
-"New South Wales",2019-08-30,4,426
-"New South Wales",2019-08-31,2,428
-"New South Wales",2019-09-01,1,429
-"New South Wales",2019-09-02,4,433
-"New South Wales",2019-09-03,23,456
-"New South Wales",2019-09-04,18,474
-"New South Wales",2019-09-05,7,481
-"New South Wales",2019-09-06,236,717
-"New South Wales",2019-09-07,258,975
-"New South Wales",2019-09-08,155,1130
-"New South Wales",2019-09-09,207,1337
-"New South Wales",2019-09-10,64,1401
-"New South Wales",2019-09-11,48,1449
-"New South Wales",2019-09-12,89,1538
-"New South Wales",2019-09-13,118,1656
-"New South Wales",2019-09-14,103,1759
-"New South Wales",2019-09-15,67,1826
-"New South Wales",2019-09-16,149,1975
-"New South Wales",2019-09-17,2,1977
-"New South Wales",2019-09-18,14,1991
-"New South Wales",2019-09-19,22,2013
-"New South Wales",2019-09-20,11,2024
-"New South Wales",2019-09-21,1,2025
-"New South Wales",2019-09-22,19,2044
-"New South Wales",2019-09-23,57,2101
-"New South Wales",2019-09-24,12,2113
-"New South Wales",2019-09-26,5,2118
-"New South Wales",2019-09-27,47,2165
-"New South Wales",2019-09-28,21,2186
-"New South Wales",2019-09-29,8,2194
-"New South Wales",2019-09-30,1,2195
-"New South Wales",2019-10-01,2,2197
-"New South Wales",2019-10-02,2,2199
-"New South Wales",2019-10-03,3,2202
-"New South Wales",2019-10-04,11,2213
-"New South Wales",2019-10-06,11,2224
-"New South Wales",2019-10-07,62,2286
-"New South Wales",2019-10-08,344,2630
-"New South Wales",2019-10-09,68,2698
-"New South Wales",2019-10-10,3,2701
-"New South Wales",2019-10-11,1,2702
-"New South Wales",2019-10-12,3,2705
-"New South Wales",2019-10-14,1,2706
-"New South Wales",2019-10-15,9,2715
-"New South Wales",2019-10-16,1,2716
-"New South Wales",2019-10-17,26,2742
-"New South Wales",2019-10-18,43,2785
-"New South Wales",2019-10-19,136,2921
-"New South Wales",2019-10-20,81,3002
-"New South Wales",2019-10-21,51,3053
-"New South Wales",2019-10-22,82,3135
-"New South Wales",2019-10-23,39,3174
-"New South Wales",2019-10-24,36,3210
-"New South Wales",2019-10-25,31,3241
-"New South Wales",2019-10-26,151,3392
-"New South Wales",2019-10-27,125,3517
-"New South Wales",2019-10-28,60,3577
-"New South Wales",2019-10-29,75,3652
-"New South Wales",2019-10-30,15,3667
-"New South Wales",2019-10-31,61,3728
-"New South Wales",2019-11-01,73,3801
-"New South Wales",2019-11-02,51,3852
-"New South Wales",2019-11-03,12,3864
-"New South Wales",2019-11-04,31,3895
-"New South Wales",2019-11-05,30,3925
-"New South Wales",2019-11-06,133,4058
-"New South Wales",2019-11-07,1335,5393
-"New South Wales",2019-11-08,2272,7665
-"New South Wales",2019-11-09,1130,8795
-"New South Wales",2019-11-10,700,9495
-"New South Wales",2019-11-11,222,9717
-"New South Wales",2019-11-12,1597,11314
-"New South Wales",2019-11-13,451,11765
-"New South Wales",2019-11-14,509,12274
-"New South Wales",2019-11-15,966,13240
-"New South Wales",2019-11-16,398,13638
-"New South Wales",2019-11-17,118,13756
-"New South Wales",2019-11-18,350,14106
-"New South Wales",2019-11-19,887,14993
-"New South Wales",2019-11-20,192,15185
-"New South Wales",2019-11-21,499,15684
-"New South Wales",2019-11-22,498,16182
-"New South Wales",2019-11-23,135,16317
-"New South Wales",2019-11-24,70,16387
-"New South Wales",2019-11-25,154,16541
-"New South Wales",2019-11-26,298,16839
-"New South Wales",2019-11-27,64,16903
-"New South Wales",2019-11-28,242,17145
-"New South Wales",2019-11-29,204,17349
-"New South Wales",2019-11-30,54,17403
-"New South Wales",2019-12-01,389,17792
-"New South Wales",2019-12-02,569,18361
-"New South Wales",2019-12-03,972,19333
-"New South Wales",2019-12-04,1068,20401
-"New South Wales",2019-12-05,1688,22089
-"New South Wales",2019-12-06,1584,23673
-"New South Wales",2019-12-07,991,24664
-"New South Wales",2019-12-08,236,24900
-"New South Wales",2019-12-09,698,25598
-"New South Wales",2019-12-10,485,26083
-"New South Wales",2019-12-11,57,26140
-"New South Wales",2019-12-12,113,26253
-"New South Wales",2019-12-13,19,26272
-"New South Wales",2019-12-14,348,26620
-"New South Wales",2019-12-15,463,27083
-"New South Wales",2019-12-16,729,27812
-"New South Wales",2019-12-17,488,28300
-"New South Wales",2019-12-18,1034,29334
-"New South Wales",2019-12-19,1296,30630
-"New South Wales",2019-12-20,553,31183
-"New South Wales",2019-12-21,1525,32708
-"New South Wales",2019-12-22,75,32783
-"New South Wales",2019-12-23,160,32943
-"New South Wales",2019-12-24,17,32960
-"New South Wales",2019-12-25,104,33064
-"New South Wales",2019-12-26,207,33271
-"New South Wales",2019-12-27,372,33643
-"New South Wales",2019-12-28,770,34413
-"New South Wales",2019-12-29,463,34876
-"New South Wales",2019-12-30,2117,36993
-"New South Wales",2019-12-31,1028,38021
-"New South Wales",2020-01-01,527,38548
-"New South Wales",2020-01-02,516,39064
-"New South Wales",2020-01-03,836,39900
-"New South Wales",2020-01-04,3252,43152
-"New South Wales",2020-01-05,135,43287
-"New South Wales",2020-01-06,47,43334
-"New South Wales",2020-01-07,20,43354
-"New South Wales",2020-01-08,71,43425
-"New South Wales",2020-01-09,92,43517
-"New South Wales",2020-01-10,147,43664
-"New South Wales",2020-01-11,367,44031
-"Northern Territory",2019-08-01,51,51
-"Northern Territory",2019-08-02,166,217
-"Northern Territory",2019-08-03,76,293
-"Northern Territory",2019-08-04,91,384
-"Northern Territory",2019-08-05,71,455
-"Northern Territory",2019-08-06,151,606
-"Northern Territory",2019-08-07,117,723
-"Northern Territory",2019-08-08,37,760
-"Northern Territory",2019-08-09,134,894
-"Northern Territory",2019-08-10,50,944
-"Northern Territory",2019-08-11,180,1124
-"Northern Territory",2019-08-12,195,1319
-"Northern Territory",2019-08-13,130,1449
-"Northern Territory",2019-08-14,136,1585
-"Northern Territory",2019-08-15,46,1631
-"Northern Territory",2019-08-16,133,1764
-"Northern Territory",2019-08-17,14,1778
-"Northern Territory",2019-08-18,75,1853
-"Northern Territory",2019-08-19,79,1932
-"Northern Territory",2019-08-20,157,2089
-"Northern Territory",2019-08-21,100,2189
-"Northern Territory",2019-08-22,88,2277
-"Northern Territory",2019-08-23,100,2377
-"Northern Territory",2019-08-24,8,2385
-"Northern Territory",2019-08-25,48,2433
-"Northern Territory",2019-08-26,14,2447
-"Northern Territory",2019-08-27,74,2521
-"Northern Territory",2019-08-28,147,2668
-"Northern Territory",2019-08-29,109,2777
-"Northern Territory",2019-08-30,89,2866
-"Northern Territory",2019-08-31,35,2901
-"Northern Territory",2019-09-01,140,3041
-"Northern Territory",2019-09-02,32,3073
-"Northern Territory",2019-09-03,117,3190
-"Northern Territory",2019-09-04,28,3218
-"Northern Territory",2019-09-05,47,3265
-"Northern Territory",2019-09-06,68,3333
-"Northern Territory",2019-09-07,59,3392
-"Northern Territory",2019-09-08,158,3550
-"Northern Territory",2019-09-09,34,3584
-"Northern Territory",2019-09-10,218,3802
-"Northern Territory",2019-09-11,94,3896
-"Northern Territory",2019-09-12,195,4091
-"Northern Territory",2019-09-13,145,4236
-"Northern Territory",2019-09-14,184,4420
-"Northern Territory",2019-09-15,217,4637
-"Northern Territory",2019-09-16,18,4655
-"Northern Territory",2019-09-17,120,4775
-"Northern Territory",2019-09-18,33,4808
-"Northern Territory",2019-09-19,76,4884
-"Northern Territory",2019-09-20,129,5013
-"Northern Territory",2019-09-21,31,5044
-"Northern Territory",2019-09-22,22,5066
-"Northern Territory",2019-09-23,27,5093
-"Northern Territory",2019-09-24,62,5155
-"Northern Territory",2019-09-25,28,5183
-"Northern Territory",2019-09-26,81,5264
-"Northern Territory",2019-09-27,31,5295
-"Northern Territory",2019-09-28,99,5394
-"Northern Territory",2019-09-29,84,5478
-"Northern Territory",2019-09-30,116,5594
-"Northern Territory",2019-10-01,252,5846
-"Northern Territory",2019-10-02,100,5946
-"Northern Territory",2019-10-03,156,6102
-"Northern Territory",2019-10-04,95,6197
-"Northern Territory",2019-10-05,234,6431
-"Northern Territory",2019-10-06,77,6508
-"Northern Territory",2019-10-07,103,6611
-"Northern Territory",2019-10-08,84,6695
-"Northern Territory",2019-10-09,98,6793
-"Northern Territory",2019-10-10,181,6974
-"Northern Territory",2019-10-11,89,7063
-"Northern Territory",2019-10-12,277,7340
-"Northern Territory",2019-10-13,88,7428
-"Northern Territory",2019-10-14,339,7767
-"Northern Territory",2019-10-15,135,7902
-"Northern Territory",2019-10-16,224,8126
-"Northern Territory",2019-10-17,313,8439
-"Northern Territory",2019-10-18,238,8677
-"Northern Territory",2019-10-19,442,9119
-"Northern Territory",2019-10-20,260,9379
-"Northern Territory",2019-10-21,826,10205
-"Northern Territory",2019-10-22,301,10506
-"Northern Territory",2019-10-23,240,10746
-"Northern Territory",2019-10-24,73,10819
-"Northern Territory",2019-10-25,71,10890
-"Northern Territory",2019-10-26,58,10948
-"Northern Territory",2019-10-27,8,10956
-"Northern Territory",2019-10-28,10,10966
-"Northern Territory",2019-10-29,32,10998
-"Northern Territory",2019-10-30,65,11063
-"Northern Territory",2019-10-31,18,11081
-"Northern Territory",2019-11-01,33,11114
-"Northern Territory",2019-11-02,57,11171
-"Northern Territory",2019-11-03,20,11191
-"Northern Territory",2019-11-04,6,11197
-"Northern Territory",2019-11-05,11,11208
-"Northern Territory",2019-11-06,58,11266
-"Northern Territory",2019-11-07,12,11278
-"Northern Territory",2019-11-08,27,11305
-"Northern Territory",2019-11-09,35,11340
-"Northern Territory",2019-11-10,80,11420
-"Northern Territory",2019-11-11,75,11495
-"Northern Territory",2019-11-12,19,11514
-"Northern Territory",2019-11-13,28,11542
-"Northern Territory",2019-11-14,9,11551
-"Northern Territory",2019-11-15,60,11611
-"Northern Territory",2019-11-16,49,11660
-"Northern Territory",2019-11-17,130,11790
-"Northern Territory",2019-11-18,35,11825
-"Northern Territory",2019-11-19,61,11886
-"Northern Territory",2019-11-20,122,12008
-"Northern Territory",2019-11-21,14,12022
-"Northern Territory",2019-11-22,49,12071
-"Northern Territory",2019-11-23,24,12095
-"Northern Territory",2019-11-24,36,12131
-"Northern Territory",2019-11-25,12,12143
-"Northern Territory",2019-11-26,31,12174
-"Northern Territory",2019-11-27,52,12226
-"Northern Territory",2019-11-28,34,12260
-"Northern Territory",2019-11-29,57,12317
-"Northern Territory",2019-11-30,18,12335
-"Northern Territory",2019-12-01,73,12408
-"Northern Territory",2019-12-02,31,12439
-"Northern Territory",2019-12-03,74,12513
-"Northern Territory",2019-12-04,132,12645
-"Northern Territory",2019-12-05,134,12779
-"Northern Territory",2019-12-06,148,12927
-"Northern Territory",2019-12-07,29,12956
-"Northern Territory",2019-12-08,98,13054
-"Northern Territory",2019-12-09,28,13082
-"Northern Territory",2019-12-10,35,13117
-"Northern Territory",2019-12-11,25,13142
-"Northern Territory",2019-12-12,34,13176
-"Northern Territory",2019-12-13,46,13222
-"Northern Territory",2019-12-14,33,13255
-"Northern Territory",2019-12-15,191,13446
-"Northern Territory",2019-12-16,37,13483
-"Northern Territory",2019-12-17,78,13561
-"Northern Territory",2019-12-18,72,13633
-"Northern Territory",2019-12-19,126,13759
-"Northern Territory",2019-12-20,102,13861
-"Northern Territory",2019-12-21,99,13960
-"Northern Territory",2019-12-22,180,14140
-"Northern Territory",2019-12-23,146,14286
-"Northern Territory",2019-12-24,331,14617
-"Northern Territory",2019-12-25,168,14785
-"Northern Territory",2019-12-26,309,15094
-"Northern Territory",2019-12-27,115,15209
-"Northern Territory",2019-12-28,65,15274
-"Northern Territory",2019-12-29,51,15325
-"Northern Territory",2019-12-30,113,15438
-"Northern Territory",2019-12-31,39,15477
-"Northern Territory",2020-01-01,13,15490
-"Northern Territory",2020-01-02,39,15529
-"Northern Territory",2020-01-03,20,15549
-"Northern Territory",2020-01-04,1,15550
-"Northern Territory",2020-01-05,5,15555
-"Northern Territory",2020-01-07,2,15557
-"Northern Territory",2020-01-08,1,15558
-"Queensland",2019-08-01,25,25
-"Queensland",2019-08-02,12,37
-"Queensland",2019-08-03,19,56
-"Queensland",2019-08-04,30,86
-"Queensland",2019-08-05,17,103
-"Queensland",2019-08-06,15,118
-"Queensland",2019-08-08,13,131
-"Queensland",2019-08-09,11,142
-"Queensland",2019-08-10,41,183
-"Queensland",2019-08-11,53,236
-"Queensland",2019-08-12,68,304
-"Queensland",2019-08-13,48,352
-"Queensland",2019-08-14,29,381
-"Queensland",2019-08-15,14,395
-"Queensland",2019-08-16,30,425
-"Queensland",2019-08-17,44,469
-"Queensland",2019-08-18,30,499
-"Queensland",2019-08-19,61,560
-"Queensland",2019-08-20,75,635
-"Queensland",2019-08-21,48,683
-"Queensland",2019-08-22,89,772
-"Queensland",2019-08-23,23,795
-"Queensland",2019-08-24,63,858
-"Queensland",2019-08-25,24,882
-"Queensland",2019-08-26,69,951
-"Queensland",2019-08-27,49,1000
-"Queensland",2019-08-28,67,1067
-"Queensland",2019-08-29,61,1128
-"Queensland",2019-08-30,40,1168
-"Queensland",2019-08-31,48,1216
-"Queensland",2019-09-01,21,1237
-"Queensland",2019-09-02,43,1280
-"Queensland",2019-09-03,46,1326
-"Queensland",2019-09-04,79,1405
-"Queensland",2019-09-05,137,1542
-"Queensland",2019-09-06,198,1740
-"Queensland",2019-09-07,161,1901
-"Queensland",2019-09-08,168,2069
-"Queensland",2019-09-09,277,2346
-"Queensland",2019-09-10,111,2457
-"Queensland",2019-09-11,106,2563
-"Queensland",2019-09-12,20,2583
-"Queensland",2019-09-13,44,2627
-"Queensland",2019-09-14,67,2694
-"Queensland",2019-09-15,20,2714
-"Queensland",2019-09-16,48,2762
-"Queensland",2019-09-17,41,2803
-"Queensland",2019-09-18,87,2890
-"Queensland",2019-09-19,50,2940
-"Queensland",2019-09-20,31,2971
-"Queensland",2019-09-21,36,3007
-"Queensland",2019-09-22,28,3035
-"Queensland",2019-09-23,78,3113
-"Queensland",2019-09-24,37,3150
-"Queensland",2019-09-25,55,3205
-"Queensland",2019-09-26,15,3220
-"Queensland",2019-09-27,44,3264
-"Queensland",2019-09-28,75,3339
-"Queensland",2019-09-29,61,3400
-"Queensland",2019-09-30,131,3531
-"Queensland",2019-10-01,67,3598
-"Queensland",2019-10-02,42,3640
-"Queensland",2019-10-03,64,3704
-"Queensland",2019-10-04,98,3802
-"Queensland",2019-10-05,60,3862
-"Queensland",2019-10-06,127,3989
-"Queensland",2019-10-07,97,4086
-"Queensland",2019-10-08,190,4276
-"Queensland",2019-10-09,151,4427
-"Queensland",2019-10-10,51,4478
-"Queensland",2019-10-11,90,4568
-"Queensland",2019-10-12,60,4628
-"Queensland",2019-10-13,98,4726
-"Queensland",2019-10-14,53,4779
-"Queensland",2019-10-15,107,4886
-"Queensland",2019-10-16,91,4977
-"Queensland",2019-10-17,36,5013
-"Queensland",2019-10-18,116,5129
-"Queensland",2019-10-19,54,5183
-"Queensland",2019-10-20,136,5319
-"Queensland",2019-10-21,52,5371
-"Queensland",2019-10-22,61,5432
-"Queensland",2019-10-23,58,5490
-"Queensland",2019-10-24,28,5518
-"Queensland",2019-10-25,19,5537
-"Queensland",2019-10-26,6,5543
-"Queensland",2019-10-27,30,5573
-"Queensland",2019-10-28,31,5604
-"Queensland",2019-10-29,8,5612
-"Queensland",2019-10-31,9,5621
-"Queensland",2019-11-01,16,5637
-"Queensland",2019-11-02,7,5644
-"Queensland",2019-11-03,26,5670
-"Queensland",2019-11-04,14,5684
-"Queensland",2019-11-05,27,5711
-"Queensland",2019-11-06,42,5753
-"Queensland",2019-11-07,117,5870
-"Queensland",2019-11-08,151,6021
-"Queensland",2019-11-09,228,6249
-"Queensland",2019-11-10,247,6496
-"Queensland",2019-11-11,51,6547
-"Queensland",2019-11-12,199,6746
-"Queensland",2019-11-13,118,6864
-"Queensland",2019-11-14,180,7044
-"Queensland",2019-11-15,108,7152
-"Queensland",2019-11-16,147,7299
-"Queensland",2019-11-17,272,7571
-"Queensland",2019-11-18,141,7712
-"Queensland",2019-11-19,138,7850
-"Queensland",2019-11-20,52,7902
-"Queensland",2019-11-21,108,8010
-"Queensland",2019-11-22,28,8038
-"Queensland",2019-11-23,123,8161
-"Queensland",2019-11-24,66,8227
-"Queensland",2019-11-25,52,8279
-"Queensland",2019-11-26,43,8322
-"Queensland",2019-11-27,6,8328
-"Queensland",2019-11-28,45,8373
-"Queensland",2019-11-29,40,8413
-"Queensland",2019-11-30,92,8505
-"Queensland",2019-12-01,85,8590
-"Queensland",2019-12-02,172,8762
-"Queensland",2019-12-03,163,8925
-"Queensland",2019-12-04,170,9095
-"Queensland",2019-12-05,185,9280
-"Queensland",2019-12-06,141,9421
-"Queensland",2019-12-07,284,9705
-"Queensland",2019-12-08,296,10001
-"Queensland",2019-12-09,438,10439
-"Queensland",2019-12-10,117,10556
-"Queensland",2019-12-11,121,10677
-"Queensland",2019-12-12,117,10794
-"Queensland",2019-12-13,114,10908
-"Queensland",2019-12-14,332,11240
-"Queensland",2019-12-15,154,11394
-"Queensland",2019-12-16,578,11972
-"Queensland",2019-12-17,414,12386
-"Queensland",2019-12-18,503,12889
-"Queensland",2019-12-19,430,13319
-"Queensland",2019-12-20,329,13648
-"Queensland",2019-12-21,271,13919
-"Queensland",2019-12-22,117,14036
-"Queensland",2019-12-23,251,14287
-"Queensland",2019-12-24,239,14526
-"Queensland",2019-12-25,318,14844
-"Queensland",2019-12-26,215,15059
-"Queensland",2019-12-27,82,15141
-"Queensland",2019-12-28,69,15210
-"Queensland",2019-12-29,25,15235
-"Queensland",2019-12-30,100,15335
-"Queensland",2019-12-31,84,15419
-"Queensland",2020-01-01,141,15560
-"Queensland",2020-01-02,152,15712
-"Queensland",2020-01-03,109,15821
-"Queensland",2020-01-04,75,15896
-"Queensland",2020-01-05,84,15980
-"Queensland",2020-01-06,47,16027
-"Queensland",2020-01-07,9,16036
-"Queensland",2020-01-08,52,16088
-"Queensland",2020-01-09,41,16129
-"Queensland",2020-01-10,65,16194
-"Queensland",2020-01-11,71,16265
-"South Australia",2019-08-02,1,1
-"South Australia",2019-08-14,1,2
-"South Australia",2019-08-15,2,4
-"South Australia",2019-09-09,3,7
-"South Australia",2019-09-11,4,11
-"South Australia",2019-09-12,1,12
-"South Australia",2019-09-13,11,23
-"South Australia",2019-09-14,9,32
-"South Australia",2019-09-15,9,41
-"South Australia",2019-09-16,8,49
-"South Australia",2019-09-17,2,51
-"South Australia",2019-09-30,9,60
-"South Australia",2019-10-01,8,68
-"South Australia",2019-10-03,1,69
-"South Australia",2019-10-04,152,221
-"South Australia",2019-10-05,206,427
-"South Australia",2019-10-06,20,447
-"South Australia",2019-10-07,2,449
-"South Australia",2019-10-08,14,463
-"South Australia",2019-10-09,9,472
-"South Australia",2019-10-10,1,473
-"South Australia",2019-10-11,10,483
-"South Australia",2019-10-18,2,485
-"South Australia",2019-10-20,3,488
-"South Australia",2019-10-22,6,494
-"South Australia",2019-10-24,82,576
-"South Australia",2019-10-25,78,654
-"South Australia",2019-10-26,18,672
-"South Australia",2019-10-27,35,707
-"South Australia",2019-10-28,45,752
-"South Australia",2019-10-29,33,785
-"South Australia",2019-10-30,39,824
-"South Australia",2019-10-31,23,847
-"South Australia",2019-11-02,6,853
-"South Australia",2019-11-03,2,855
-"South Australia",2019-11-05,8,863
-"South Australia",2019-11-06,3,866
-"South Australia",2019-11-07,6,872
-"South Australia",2019-11-10,2,874
-"South Australia",2019-11-14,2,876
-"South Australia",2019-11-18,2,878
-"South Australia",2019-11-25,5,883
-"South Australia",2019-11-28,1,884
-"South Australia",2019-11-29,1,885
-"South Australia",2019-12-08,2,887
-"South Australia",2019-12-11,3,890
-"South Australia",2019-12-18,6,896
-"South Australia",2019-12-19,69,965
-"South Australia",2019-12-20,253,1218
-"South Australia",2019-12-21,79,1297
-"South Australia",2019-12-22,10,1307
-"South Australia",2019-12-23,37,1344
-"South Australia",2019-12-24,26,1370
-"South Australia",2019-12-25,18,1388
-"South Australia",2019-12-26,20,1408
-"South Australia",2019-12-27,30,1438
-"South Australia",2019-12-28,17,1455
-"South Australia",2019-12-29,81,1536
-"South Australia",2019-12-30,322,1858
-"South Australia",2019-12-31,98,1956
-"South Australia",2020-01-01,107,2063
-"South Australia",2020-01-02,173,2236
-"South Australia",2020-01-03,425,2661
-"South Australia",2020-01-05,24,2685
-"South Australia",2020-01-06,37,2722
-"South Australia",2020-01-07,50,2772
-"South Australia",2020-01-08,28,2800
-"South Australia",2020-01-09,76,2876
-"South Australia",2020-01-10,1,2877
-"South Australia",2020-01-11,5,2882
-"Tasmania",2019-08-02,1,1
-"Tasmania",2019-08-18,1,2
-"Tasmania",2019-08-20,1,3
-"Tasmania",2019-09-03,2,5
-"Tasmania",2019-09-17,5,10
-"Tasmania",2019-09-19,16,26
-"Tasmania",2019-09-20,1,27
-"Tasmania",2019-09-22,2,29
-"Tasmania",2019-09-26,2,31
-"Tasmania",2019-10-05,2,33
-"Tasmania",2019-10-12,1,34
-"Tasmania",2019-10-21,1,35
-"Tasmania",2019-10-23,4,39
-"Tasmania",2019-10-28,1,40
-"Tasmania",2019-10-29,3,43
-"Tasmania",2019-10-31,6,49
-"Tasmania",2019-11-16,10,59
-"Tasmania",2019-11-18,6,65
-"Tasmania",2019-11-19,4,69
-"Tasmania",2019-11-20,1,70
-"Tasmania",2019-11-23,1,71
-"Tasmania",2019-11-24,4,75
-"Tasmania",2019-12-03,2,77
-"Tasmania",2019-12-04,3,80
-"Tasmania",2019-12-05,5,85
-"Tasmania",2019-12-06,18,103
-"Tasmania",2019-12-07,1,104
-"Tasmania",2019-12-08,16,120
-"Tasmania",2019-12-09,1,121
-"Tasmania",2019-12-10,11,132
-"Tasmania",2019-12-12,2,134
-"Tasmania",2019-12-17,2,136
-"Tasmania",2019-12-19,4,140
-"Tasmania",2019-12-31,54,194
-"Tasmania",2020-01-01,51,245
-"Tasmania",2020-01-02,37,282
-"Tasmania",2020-01-03,32,314
-"Tasmania",2020-01-04,7,321
-"Tasmania",2020-01-05,12,333
-"Tasmania",2020-01-06,24,357
-"Tasmania",2020-01-09,16,373
-"Tasmania",2020-01-11,3,376
-"Victoria",2019-08-27,2,2
-"Victoria",2019-09-01,2,4
-"Victoria",2019-09-02,2,6
-"Victoria",2019-09-03,8,14
-"Victoria",2019-09-04,1,15
-"Victoria",2019-09-05,2,17
-"Victoria",2019-09-11,1,18
-"Victoria",2019-09-13,1,19
-"Victoria",2019-09-14,1,20
-"Victoria",2019-09-19,3,23
-"Victoria",2019-09-26,1,24
-"Victoria",2019-10-01,5,29
-"Victoria",2019-10-02,2,31
-"Victoria",2019-10-03,5,36
-"Victoria",2019-10-05,1,37
-"Victoria",2019-10-10,2,39
-"Victoria",2019-10-12,1,40
-"Victoria",2019-10-14,1,41
-"Victoria",2019-10-21,8,49
-"Victoria",2019-10-23,4,53
-"Victoria",2019-10-27,1,54
-"Victoria",2019-10-29,1,55
-"Victoria",2019-11-22,29,84
-"Victoria",2019-11-23,16,100
-"Victoria",2019-11-24,43,143
-"Victoria",2019-11-25,99,242
-"Victoria",2019-11-27,1,243
-"Victoria",2019-11-28,6,249
-"Victoria",2019-11-29,43,292
-"Victoria",2019-11-30,1,293
-"Victoria",2019-12-05,1,294
-"Victoria",2019-12-06,5,299
-"Victoria",2019-12-07,10,309
-"Victoria",2019-12-08,17,326
-"Victoria",2019-12-09,99,425
-"Victoria",2019-12-10,15,440
-"Victoria",2019-12-12,1,441
-"Victoria",2019-12-13,4,445
-"Victoria",2019-12-14,3,448
-"Victoria",2019-12-16,14,462
-"Victoria",2019-12-17,44,506
-"Victoria",2019-12-18,27,533
-"Victoria",2019-12-19,65,598
-"Victoria",2019-12-20,324,922
-"Victoria",2019-12-21,95,1017
-"Victoria",2019-12-22,98,1115
-"Victoria",2019-12-23,2,1117
-"Victoria",2019-12-24,29,1146
-"Victoria",2019-12-25,70,1216
-"Victoria",2019-12-26,97,1313
-"Victoria",2019-12-27,38,1351
-"Victoria",2019-12-28,2,1353
-"Victoria",2019-12-29,286,1639
-"Victoria",2019-12-30,2189,3828
-"Victoria",2019-12-31,367,4195
-"Victoria",2020-01-01,555,4750
-"Victoria",2020-01-02,685,5435
-"Victoria",2020-01-03,929,6364
-"Victoria",2020-01-04,1949,8313
-"Victoria",2020-01-07,5,8318
-"Victoria",2020-01-08,52,8370
-"Victoria",2020-01-09,87,8457
-"Victoria",2020-01-10,8,8465
-"Victoria",2020-01-11,141,8606
-"Western Australia",2019-08-01,26,26
-"Western Australia",2019-08-02,15,41
-"Western Australia",2019-08-03,4,45
-"Western Australia",2019-08-04,6,51
-"Western Australia",2019-08-05,5,56
-"Western Australia",2019-08-06,4,60
-"Western Australia",2019-08-07,24,84
-"Western Australia",2019-08-09,5,89
-"Western Australia",2019-08-10,27,116
-"Western Australia",2019-08-11,5,121
-"Western Australia",2019-08-12,7,128
-"Western Australia",2019-08-13,5,133
-"Western Australia",2019-08-14,2,135
-"Western Australia",2019-08-15,8,143
-"Western Australia",2019-08-16,28,171
-"Western Australia",2019-08-17,11,182
-"Western Australia",2019-08-19,3,185
-"Western Australia",2019-08-20,2,187
-"Western Australia",2019-08-21,15,202
-"Western Australia",2019-08-22,15,217
-"Western Australia",2019-08-23,5,222
-"Western Australia",2019-08-24,9,231
-"Western Australia",2019-08-25,16,247
-"Western Australia",2019-08-26,7,254
-"Western Australia",2019-08-27,3,257
-"Western Australia",2019-08-28,7,264
-"Western Australia",2019-08-29,1,265
-"Western Australia",2019-08-30,5,270
-"Western Australia",2019-08-31,12,282
-"Western Australia",2019-09-01,9,291
-"Western Australia",2019-09-02,16,307
-"Western Australia",2019-09-03,22,329
-"Western Australia",2019-09-04,24,353
-"Western Australia",2019-09-05,25,378
-"Western Australia",2019-09-06,51,429
-"Western Australia",2019-09-07,27,456
-"Western Australia",2019-09-08,21,477
-"Western Australia",2019-09-09,26,503
-"Western Australia",2019-09-10,66,569
-"Western Australia",2019-09-11,41,610
-"Western Australia",2019-09-12,62,672
-"Western Australia",2019-09-13,57,729
-"Western Australia",2019-09-14,21,750
-"Western Australia",2019-09-15,64,814
-"Western Australia",2019-09-16,1,815
-"Western Australia",2019-09-17,16,831
-"Western Australia",2019-09-18,6,837
-"Western Australia",2019-09-20,11,848
-"Western Australia",2019-09-21,17,865
-"Western Australia",2019-09-22,39,904
-"Western Australia",2019-09-23,4,908
-"Western Australia",2019-09-24,55,963
-"Western Australia",2019-09-25,24,987
-"Western Australia",2019-09-26,10,997
-"Western Australia",2019-09-27,25,1022
-"Western Australia",2019-09-28,33,1055
-"Western Australia",2019-09-29,45,1100
-"Western Australia",2019-09-30,66,1166
-"Western Australia",2019-10-01,119,1285
-"Western Australia",2019-10-02,16,1301
-"Western Australia",2019-10-03,157,1458
-"Western Australia",2019-10-04,136,1594
-"Western Australia",2019-10-05,146,1740
-"Western Australia",2019-10-06,33,1773
-"Western Australia",2019-10-07,9,1782
-"Western Australia",2019-10-08,46,1828
-"Western Australia",2019-10-09,40,1868
-"Western Australia",2019-10-10,111,1979
-"Western Australia",2019-10-11,156,2135
-"Western Australia",2019-10-12,92,2227
-"Western Australia",2019-10-13,139,2366
-"Western Australia",2019-10-14,102,2468
-"Western Australia",2019-10-15,57,2525
-"Western Australia",2019-10-16,32,2557
-"Western Australia",2019-10-17,54,2611
-"Western Australia",2019-10-18,48,2659
-"Western Australia",2019-10-19,76,2735
-"Western Australia",2019-10-20,91,2826
-"Western Australia",2019-10-21,197,3023
-"Western Australia",2019-10-22,147,3170
-"Western Australia",2019-10-23,236,3406
-"Western Australia",2019-10-24,200,3606
-"Western Australia",2019-10-25,176,3782
-"Western Australia",2019-10-26,145,3927
-"Western Australia",2019-10-27,178,4105
-"Western Australia",2019-10-28,196,4301
-"Western Australia",2019-10-29,125,4426
-"Western Australia",2019-10-30,269,4695
-"Western Australia",2019-10-31,241,4936
-"Western Australia",2019-11-01,46,4982
-"Western Australia",2019-11-02,106,5088
-"Western Australia",2019-11-03,203,5291
-"Western Australia",2019-11-04,447,5738
-"Western Australia",2019-11-05,249,5987
-"Western Australia",2019-11-06,221,6208
-"Western Australia",2019-11-07,180,6388
-"Western Australia",2019-11-08,126,6514
-"Western Australia",2019-11-09,149,6663
-"Western Australia",2019-11-10,363,7026
-"Western Australia",2019-11-11,150,7176
-"Western Australia",2019-11-12,99,7275
-"Western Australia",2019-11-13,208,7483
-"Western Australia",2019-11-14,119,7602
-"Western Australia",2019-11-15,218,7820
-"Western Australia",2019-11-16,185,8005
-"Western Australia",2019-11-17,340,8345
-"Western Australia",2019-11-18,256,8601
-"Western Australia",2019-11-19,257,8858
-"Western Australia",2019-11-20,265,9123
-"Western Australia",2019-11-21,195,9318
-"Western Australia",2019-11-22,179,9497
-"Western Australia",2019-11-23,227,9724
-"Western Australia",2019-11-24,272,9996
-"Western Australia",2019-11-25,213,10209
-"Western Australia",2019-11-26,136,10345
-"Western Australia",2019-11-27,252,10597
-"Western Australia",2019-11-28,47,10644
-"Western Australia",2019-11-29,71,10715
-"Western Australia",2019-11-30,95,10810
-"Western Australia",2019-12-01,112,10922
-"Western Australia",2019-12-02,134,11056
-"Western Australia",2019-12-03,51,11107
-"Western Australia",2019-12-04,173,11280
-"Western Australia",2019-12-05,80,11360
-"Western Australia",2019-12-06,195,11555
-"Western Australia",2019-12-07,121,11676
-"Western Australia",2019-12-08,228,11904
-"Western Australia",2019-12-09,153,12057
-"Western Australia",2019-12-10,124,12181
-"Western Australia",2019-12-11,179,12360
-"Western Australia",2019-12-12,115,12475
-"Western Australia",2019-12-13,268,12743
-"Western Australia",2019-12-14,593,13336
-"Western Australia",2019-12-15,593,13929
-"Western Australia",2019-12-16,234,14163
-"Western Australia",2019-12-17,188,14351
-"Western Australia",2019-12-18,369,14720
-"Western Australia",2019-12-19,820,15540
-"Western Australia",2019-12-20,263,15803
-"Western Australia",2019-12-21,326,16129
-"Western Australia",2019-12-22,170,16299
-"Western Australia",2019-12-23,104,16403
-"Western Australia",2019-12-24,135,16538
-"Western Australia",2019-12-25,217,16755
-"Western Australia",2019-12-26,287,17042
-"Western Australia",2019-12-27,287,17329
-"Western Australia",2019-12-28,466,17795
-"Western Australia",2019-12-29,1177,18972
-"Western Australia",2019-12-30,254,19226
-"Western Australia",2019-12-31,155,19381
-"Western Australia",2020-01-01,619,20000
-"Western Australia",2020-01-02,919,20919
-"Western Australia",2020-01-03,25,20944
-"Western Australia",2020-01-04,49,20993
-"Western Australia",2020-01-05,121,21114
-"Western Australia",2020-01-06,317,21431
-"Western Australia",2020-01-07,689,22120
-"Western Australia",2020-01-08,415,22535
-"Western Australia",2020-01-09,10,22545
-"Western Australia",2020-01-10,11,22556
-"Western Australia",2020-01-11,39,22595
+"acq_date","New South Wales","Northern Territory","Queensland","South Australia","Tasmania","Victoria","Western Australia"
+2019-08-01,4,51,25,0,0,0,26
+2019-08-02,7,166,12,1,1,0,15
+2019-08-03,9,76,19,0,0,0,4
+2019-08-04,2,91,30,0,0,0,6
+2019-08-05,3,71,17,0,0,0,5
+2019-08-06,22,151,15,0,0,0,4
+2019-08-07,7,117,0,0,0,0,24
+2019-08-08,24,37,13,0,0,0,0
+2019-08-09,24,134,11,0,0,0,5
+2019-08-10,73,50,41,0,0,0,27
+2019-08-11,49,180,53,0,0,0,5
+2019-08-12,12,195,68,0,0,0,7
+2019-08-13,15,130,48,0,0,0,5
+2019-08-14,5,136,29,1,0,0,2
+2019-08-15,6,46,14,2,0,0,8
+2019-08-16,10,133,30,0,0,0,28
+2019-08-17,7,14,44,0,0,0,11
+2019-08-18,7,75,30,0,1,0,0
+2019-08-19,18,79,61,0,0,0,3
+2019-08-20,15,157,75,0,1,0,2
+2019-08-21,9,100,48,0,0,0,15
+2019-08-22,6,88,89,0,0,0,15
+2019-08-23,8,100,23,0,0,0,5
+2019-08-24,11,8,63,0,0,0,9
+2019-08-25,8,48,24,0,0,0,16
+2019-08-26,11,14,69,0,0,0,7
+2019-08-27,16,74,49,0,0,2,3
+2019-08-28,24,147,67,0,0,0,7
+2019-08-29,10,109,61,0,0,0,1
+2019-08-30,4,89,40,0,0,0,5
+2019-08-31,2,35,48,0,0,0,12
+2019-09-01,1,140,21,0,0,2,9
+2019-09-02,4,32,43,0,0,2,16
+2019-09-03,23,117,46,0,2,8,22
+2019-09-04,18,28,79,0,0,1,24
+2019-09-05,7,47,137,0,0,2,25
+2019-09-06,236,68,198,0,0,0,51
+2019-09-07,258,59,161,0,0,0,27
+2019-09-08,155,158,168,0,0,0,21
+2019-09-09,207,34,277,3,0,0,26
+2019-09-10,64,218,111,0,0,0,66
+2019-09-11,48,94,106,4,0,1,41
+2019-09-12,89,195,20,1,0,0,62
+2019-09-13,118,145,44,11,0,1,57
+2019-09-14,103,184,67,9,0,1,21
+2019-09-15,67,217,20,9,0,0,64
+2019-09-16,149,18,48,8,0,0,1
+2019-09-17,2,120,41,2,5,0,16
+2019-09-18,14,33,87,0,0,0,6
+2019-09-19,22,76,50,0,16,3,0
+2019-09-20,11,129,31,0,1,0,11
+2019-09-21,1,31,36,0,0,0,17
+2019-09-22,19,22,28,0,2,0,39
+2019-09-23,57,27,78,0,0,0,4
+2019-09-24,12,62,37,0,0,0,55
+2019-09-25,0,28,55,0,0,0,24
+2019-09-26,5,81,15,0,2,1,10
+2019-09-27,47,31,44,0,0,0,25
+2019-09-28,21,99,75,0,0,0,33
+2019-09-29,8,84,61,0,0,0,45
+2019-09-30,1,116,131,9,0,0,66
+2019-10-01,2,252,67,8,0,5,119
+2019-10-02,2,100,42,0,0,2,16
+2019-10-03,3,156,64,1,0,5,157
+2019-10-04,11,95,98,152,0,0,136
+2019-10-05,0,234,60,206,2,1,146
+2019-10-06,11,77,127,20,0,0,33
+2019-10-07,62,103,97,2,0,0,9
+2019-10-08,344,84,190,14,0,0,46
+2019-10-09,68,98,151,9,0,0,40
+2019-10-10,3,181,51,1,0,2,111
+2019-10-11,1,89,90,10,0,0,156
+2019-10-12,3,277,60,0,1,1,92
+2019-10-13,0,88,98,0,0,0,139
+2019-10-14,1,339,53,0,0,1,102
+2019-10-15,9,135,107,0,0,0,57
+2019-10-16,1,224,91,0,0,0,32
+2019-10-17,26,313,36,0,0,0,54
+2019-10-18,43,238,116,2,0,0,48
+2019-10-19,136,442,54,0,0,0,76
+2019-10-20,81,260,136,3,0,0,91
+2019-10-21,51,826,52,0,1,8,197
+2019-10-22,82,301,61,6,0,0,147
+2019-10-23,39,240,58,0,4,4,236
+2019-10-24,36,73,28,82,0,0,200
+2019-10-25,31,71,19,78,0,0,176
+2019-10-26,151,58,6,18,0,0,145
+2019-10-27,125,8,30,35,0,1,178
+2019-10-28,60,10,31,45,1,0,196
+2019-10-29,75,32,8,33,3,1,125
+2019-10-30,15,65,0,39,0,0,269
+2019-10-31,61,18,9,23,6,0,241
+2019-11-01,73,33,16,0,0,0,46
+2019-11-02,51,57,7,6,0,0,106
+2019-11-03,12,20,26,2,0,0,203
+2019-11-04,31,6,14,0,0,0,447
+2019-11-05,30,11,27,8,0,0,249
+2019-11-06,133,58,42,3,0,0,221
+2019-11-07,1335,12,117,6,0,0,180
+2019-11-08,2272,27,151,0,0,0,126
+2019-11-09,1130,35,228,0,0,0,149
+2019-11-10,700,80,247,2,0,0,363
+2019-11-11,222,75,51,0,0,0,150
+2019-11-12,1597,19,199,0,0,0,99
+2019-11-13,451,28,118,0,0,0,208
+2019-11-14,509,9,180,2,0,0,119
+2019-11-15,966,60,108,0,0,0,218
+2019-11-16,398,49,147,0,10,0,185
+2019-11-17,118,130,272,0,0,0,340
+2019-11-18,350,35,141,2,6,0,256
+2019-11-19,887,61,138,0,4,0,257
+2019-11-20,192,122,52,0,1,0,265
+2019-11-21,499,14,108,0,0,0,195
+2019-11-22,498,49,28,0,0,29,179
+2019-11-23,135,24,123,0,1,16,227
+2019-11-24,70,36,66,0,4,43,272
+2019-11-25,154,12,52,5,0,99,213
+2019-11-26,298,31,43,0,0,0,136
+2019-11-27,64,52,6,0,0,1,252
+2019-11-28,242,34,45,1,0,6,47
+2019-11-29,204,57,40,1,0,43,71
+2019-11-30,54,18,92,0,0,1,95
+2019-12-01,389,73,85,0,0,0,112
+2019-12-02,569,31,172,0,0,0,134
+2019-12-03,972,74,163,0,2,0,51
+2019-12-04,1068,132,170,0,3,0,173
+2019-12-05,1688,134,185,0,5,1,80
+2019-12-06,1584,148,141,0,18,5,195
+2019-12-07,991,29,284,0,1,10,121
+2019-12-08,236,98,296,2,16,17,228
+2019-12-09,698,28,438,0,1,99,153
+2019-12-10,485,35,117,0,11,15,124
+2019-12-11,57,25,121,3,0,0,179
+2019-12-12,113,34,117,0,2,1,115
+2019-12-13,19,46,114,0,0,4,268
+2019-12-14,348,33,332,0,0,3,593
+2019-12-15,463,191,154,0,0,0,593
+2019-12-16,729,37,578,0,0,14,234
+2019-12-17,488,78,414,0,2,44,188
+2019-12-18,1034,72,503,6,0,27,369
+2019-12-19,1296,126,430,69,4,65,820
+2019-12-20,553,102,329,253,0,324,263
+2019-12-21,1525,99,271,79,0,95,326
+2019-12-22,75,180,117,10,0,98,170
+2019-12-23,160,146,251,37,0,2,104
+2019-12-24,17,331,239,26,0,29,135
+2019-12-25,104,168,318,18,0,70,217
+2019-12-26,207,309,215,20,0,97,287
+2019-12-27,372,115,82,30,0,38,287
+2019-12-28,770,65,69,17,0,2,466
+2019-12-29,463,51,25,81,0,286,1177
+2019-12-30,2117,113,100,322,0,2189,254
+2019-12-31,1028,39,84,98,54,367,155
+2020-01-01,527,13,141,107,51,555,619
+2020-01-02,516,39,152,173,37,685,919
+2020-01-03,836,20,109,425,32,929,25
+2020-01-04,3252,1,75,0,7,1949,49
+2020-01-05,135,5,84,24,12,0,121
+2020-01-06,47,0,47,37,24,0,317
+2020-01-07,20,2,9,50,0,5,689
+2020-01-08,71,1,52,28,0,52,415
+2020-01-09,92,0,41,76,16,87,10
+2020-01-10,147,0,65,1,0,8,11
+2020-01-11,367,0,71,5,3,141,39
