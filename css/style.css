@@ -1,19 +1,63 @@
 html{
-    background-color: whitesmoke;
+    background-color: rgb(32,33,36);
 }
 
-#title_div{
-    background-color: #000000;
+body {
+    font: 12px Helvetica;
+}
+
+#title_div {
+    min-width: 999;
+    min-height: 90;
 }
 
 #title {
-    color: white;
-    font-size: xx-large;
+    color: rgb(211,211,211);
+    font-size: 80px;
+    padding: 10px;
+    margin: 0;
+}
+
+#subtitle {
+    color: rgb(211,211,211);
+    font-size:35px;
     padding: 10px;
 }
 
 #line_chart_div{
-    background-color: whitesmoke;
-    height: 500px;
-    width: 500px;
+    background-color: rgb(32,33,36);
+    width: 900px;
+}
+
+#bar_chart {
+    background-color: rgb(32,33,36);
+    width: 900px;
+}
+
+.axis line {
+    fill: none;
+    stroke: rgb(211,211,211);
+    shape-rendering: crispEdges;
+}
+
+.axis text{
+    fill:rgb(211,211,211);
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+
+.lc_legend_tx {
+    fill:rgb(211,211,211);
+}
+
+.bar_val {
+    fill:rgb(211,211,211);
 }
