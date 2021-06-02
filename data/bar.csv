@@ -1,0 +1,821 @@
+"state","acq_date","cumu_sum","rank","next_val"
+"Northern Territory",2019-08-01,51,1,217
+"Western Australia",2019-08-01,26,2,41
+"Queensland",2019-08-01,25,3,37
+"New South Wales",2019-08-01,4,4,11
+"Northern Territory",2019-08-02,217,1,293
+"Western Australia",2019-08-02,41,2,45
+"Queensland",2019-08-02,37,3,56
+"New South Wales",2019-08-02,11,4,20
+"South Australia",2019-08-02,1,5,2
+"Tasmania",2019-08-02,1,6,2
+"Northern Territory",2019-08-03,293,1,384
+"Queensland",2019-08-03,56,2,86
+"Western Australia",2019-08-03,45,3,51
+"New South Wales",2019-08-03,20,4,22
+"Northern Territory",2019-08-04,384,1,455
+"Queensland",2019-08-04,86,2,103
+"Western Australia",2019-08-04,51,3,56
+"New South Wales",2019-08-04,22,4,25
+"Northern Territory",2019-08-05,455,1,606
+"Queensland",2019-08-05,103,2,118
+"Western Australia",2019-08-05,56,3,60
+"New South Wales",2019-08-05,25,4,47
+"Northern Territory",2019-08-06,606,1,723
+"Queensland",2019-08-06,118,2,131
+"Western Australia",2019-08-06,60,3,84
+"New South Wales",2019-08-06,47,4,54
+"Northern Territory",2019-08-07,723,1,760
+"Western Australia",2019-08-07,84,2,89
+"New South Wales",2019-08-07,54,3,78
+"Northern Territory",2019-08-08,760,1,894
+"Queensland",2019-08-08,131,2,142
+"New South Wales",2019-08-08,78,3,102
+"Northern Territory",2019-08-09,894,1,944
+"Queensland",2019-08-09,142,2,183
+"New South Wales",2019-08-09,102,3,175
+"Western Australia",2019-08-09,89,4,116
+"Northern Territory",2019-08-10,944,1,1124
+"Queensland",2019-08-10,183,2,236
+"New South Wales",2019-08-10,175,3,224
+"Western Australia",2019-08-10,116,4,121
+"Northern Territory",2019-08-11,1124,1,1319
+"Queensland",2019-08-11,236,2,304
+"New South Wales",2019-08-11,224,3,236
+"Western Australia",2019-08-11,121,4,128
+"Northern Territory",2019-08-12,1319,1,1449
+"Queensland",2019-08-12,304,2,352
+"New South Wales",2019-08-12,236,3,251
+"Western Australia",2019-08-12,128,4,133
+"Northern Territory",2019-08-13,1449,1,1585
+"Queensland",2019-08-13,352,2,381
+"New South Wales",2019-08-13,251,3,256
+"Western Australia",2019-08-13,133,4,135
+"Northern Territory",2019-08-14,1585,1,1631
+"Queensland",2019-08-14,381,2,395
+"New South Wales",2019-08-14,256,3,262
+"Western Australia",2019-08-14,135,4,143
+"South Australia",2019-08-14,2,5,4
+"Northern Territory",2019-08-15,1631,1,1764
+"Queensland",2019-08-15,395,2,425
+"New South Wales",2019-08-15,262,3,272
+"Western Australia",2019-08-15,143,4,171
+"South Australia",2019-08-15,4,5,7
+"Northern Territory",2019-08-16,1764,1,1778
+"Queensland",2019-08-16,425,2,469
+"New South Wales",2019-08-16,272,3,279
+"Western Australia",2019-08-16,171,4,182
+"Northern Territory",2019-08-17,1778,1,1853
+"Queensland",2019-08-17,469,2,499
+"New South Wales",2019-08-17,279,3,286
+"Western Australia",2019-08-17,182,4,185
+"Northern Territory",2019-08-18,1853,1,1932
+"Queensland",2019-08-18,499,2,560
+"New South Wales",2019-08-18,286,3,304
+"Tasmania",2019-08-18,2,4,3
+"Northern Territory",2019-08-19,1932,1,2089
+"Queensland",2019-08-19,560,2,635
+"New South Wales",2019-08-19,304,3,319
+"Western Australia",2019-08-19,185,4,187
+"Northern Territory",2019-08-20,2089,1,2189
+"Queensland",2019-08-20,635,2,683
+"New South Wales",2019-08-20,319,3,328
+"Western Australia",2019-08-20,187,4,202
+"Tasmania",2019-08-20,3,5,5
+"Northern Territory",2019-08-21,2189,1,2277
+"Queensland",2019-08-21,683,2,772
+"New South Wales",2019-08-21,328,3,334
+"Western Australia",2019-08-21,202,4,217
+"Northern Territory",2019-08-22,2277,1,2377
+"Queensland",2019-08-22,772,2,795
+"New South Wales",2019-08-22,334,3,342
+"Western Australia",2019-08-22,217,4,222
+"Northern Territory",2019-08-23,2377,1,2385
+"Queensland",2019-08-23,795,2,858
+"New South Wales",2019-08-23,342,3,353
+"Western Australia",2019-08-23,222,4,231
+"Northern Territory",2019-08-24,2385,1,2433
+"Queensland",2019-08-24,858,2,882
+"New South Wales",2019-08-24,353,3,361
+"Western Australia",2019-08-24,231,4,247
+"Northern Territory",2019-08-25,2433,1,2447
+"Queensland",2019-08-25,882,2,951
+"New South Wales",2019-08-25,361,3,372
+"Western Australia",2019-08-25,247,4,254
+"Northern Territory",2019-08-26,2447,1,2521
+"Queensland",2019-08-26,951,2,1000
+"New South Wales",2019-08-26,372,3,388
+"Western Australia",2019-08-26,254,4,257
+"Northern Territory",2019-08-27,2521,1,2668
+"Queensland",2019-08-27,1000,2,1067
+"New South Wales",2019-08-27,388,3,412
+"Western Australia",2019-08-27,257,4,264
+"Victoria",2019-08-27,2,5,4
+"Northern Territory",2019-08-28,2668,1,2777
+"Queensland",2019-08-28,1067,2,1128
+"New South Wales",2019-08-28,412,3,422
+"Western Australia",2019-08-28,264,4,265
+"Northern Territory",2019-08-29,2777,1,2866
+"Queensland",2019-08-29,1128,2,1168
+"New South Wales",2019-08-29,422,3,426
+"Western Australia",2019-08-29,265,4,270
+"Northern Territory",2019-08-30,2866,1,2901
+"Queensland",2019-08-30,1168,2,1216
+"New South Wales",2019-08-30,426,3,428
+"Western Australia",2019-08-30,270,4,282
+"Northern Territory",2019-08-31,2901,1,3041
+"Queensland",2019-08-31,1216,2,1237
+"New South Wales",2019-08-31,428,3,429
+"Western Australia",2019-08-31,282,4,291
+"Northern Territory",2019-09-01,3041,1,3073
+"Queensland",2019-09-01,1237,2,1280
+"New South Wales",2019-09-01,429,3,433
+"Western Australia",2019-09-01,291,4,307
+"Victoria",2019-09-01,4,5,6
+"Northern Territory",2019-09-02,3073,1,3190
+"Queensland",2019-09-02,1280,2,1326
+"New South Wales",2019-09-02,433,3,456
+"Western Australia",2019-09-02,307,4,329
+"Victoria",2019-09-02,6,5,14
+"Northern Territory",2019-09-03,3190,1,3218
+"Queensland",2019-09-03,1326,2,1405
+"New South Wales",2019-09-03,456,3,474
+"Western Australia",2019-09-03,329,4,353
+"Victoria",2019-09-03,14,5,15
+"Tasmania",2019-09-03,5,6,10
+"Northern Territory",2019-09-04,3218,1,3265
+"Queensland",2019-09-04,1405,2,1542
+"New South Wales",2019-09-04,474,3,481
+"Western Australia",2019-09-04,353,4,378
+"Victoria",2019-09-04,15,5,17
+"Northern Territory",2019-09-05,3265,1,3333
+"Queensland",2019-09-05,1542,2,1740
+"New South Wales",2019-09-05,481,3,717
+"Western Australia",2019-09-05,378,4,429
+"Victoria",2019-09-05,17,5,18
+"Northern Territory",2019-09-06,3333,1,3392
+"Queensland",2019-09-06,1740,2,1901
+"New South Wales",2019-09-06,717,3,975
+"Western Australia",2019-09-06,429,4,456
+"Northern Territory",2019-09-07,3392,1,3550
+"Queensland",2019-09-07,1901,2,2069
+"New South Wales",2019-09-07,975,3,1130
+"Western Australia",2019-09-07,456,4,477
+"Northern Territory",2019-09-08,3550,1,3584
+"Queensland",2019-09-08,2069,2,2346
+"New South Wales",2019-09-08,1130,3,1337
+"Western Australia",2019-09-08,477,4,503
+"Northern Territory",2019-09-09,3584,1,3802
+"Queensland",2019-09-09,2346,2,2457
+"New South Wales",2019-09-09,1337,3,1401
+"Western Australia",2019-09-09,503,4,569
+"South Australia",2019-09-09,7,5,11
+"Northern Territory",2019-09-10,3802,1,3896
+"Queensland",2019-09-10,2457,2,2563
+"New South Wales",2019-09-10,1401,3,1449
+"Western Australia",2019-09-10,569,4,610
+"Northern Territory",2019-09-11,3896,1,4091
+"Queensland",2019-09-11,2563,2,2583
+"New South Wales",2019-09-11,1449,3,1538
+"Western Australia",2019-09-11,610,4,672
+"Victoria",2019-09-11,18,5,19
+"South Australia",2019-09-11,11,6,12
+"Northern Territory",2019-09-12,4091,1,4236
+"Queensland",2019-09-12,2583,2,2627
+"New South Wales",2019-09-12,1538,3,1656
+"Western Australia",2019-09-12,672,4,729
+"South Australia",2019-09-12,12,5,23
+"Northern Territory",2019-09-13,4236,1,4420
+"Queensland",2019-09-13,2627,2,2694
+"New South Wales",2019-09-13,1656,3,1759
+"Western Australia",2019-09-13,729,4,750
+"South Australia",2019-09-13,23,5,32
+"Victoria",2019-09-13,19,6,20
+"Northern Territory",2019-09-14,4420,1,4637
+"Queensland",2019-09-14,2694,2,2714
+"New South Wales",2019-09-14,1759,3,1826
+"Western Australia",2019-09-14,750,4,814
+"South Australia",2019-09-14,32,5,41
+"Victoria",2019-09-14,20,6,23
+"Northern Territory",2019-09-15,4637,1,4655
+"Queensland",2019-09-15,2714,2,2762
+"New South Wales",2019-09-15,1826,3,1975
+"Western Australia",2019-09-15,814,4,815
+"South Australia",2019-09-15,41,5,49
+"Northern Territory",2019-09-16,4655,1,4775
+"Queensland",2019-09-16,2762,2,2803
+"New South Wales",2019-09-16,1975,3,1977
+"Western Australia",2019-09-16,815,4,831
+"South Australia",2019-09-16,49,5,51
+"Northern Territory",2019-09-17,4775,1,4808
+"Queensland",2019-09-17,2803,2,2890
+"New South Wales",2019-09-17,1977,3,1991
+"Western Australia",2019-09-17,831,4,837
+"South Australia",2019-09-17,51,5,60
+"Tasmania",2019-09-17,10,6,26
+"Northern Territory",2019-09-18,4808,1,4884
+"Queensland",2019-09-18,2890,2,2940
+"New South Wales",2019-09-18,1991,3,2013
+"Western Australia",2019-09-18,837,4,848
+"Northern Territory",2019-09-19,4884,1,5013
+"Queensland",2019-09-19,2940,2,2971
+"New South Wales",2019-09-19,2013,3,2024
+"Tasmania",2019-09-19,26,4,27
+"Victoria",2019-09-19,23,5,24
+"Northern Territory",2019-09-20,5013,1,5044
+"Queensland",2019-09-20,2971,2,3007
+"New South Wales",2019-09-20,2024,3,2025
+"Western Australia",2019-09-20,848,4,865
+"Tasmania",2019-09-20,27,5,29
+"Northern Territory",2019-09-21,5044,1,5066
+"Queensland",2019-09-21,3007,2,3035
+"New South Wales",2019-09-21,2025,3,2044
+"Western Australia",2019-09-21,865,4,904
+"Northern Territory",2019-09-22,5066,1,5093
+"Queensland",2019-09-22,3035,2,3113
+"New South Wales",2019-09-22,2044,3,2101
+"Western Australia",2019-09-22,904,4,908
+"Tasmania",2019-09-22,29,5,31
+"Northern Territory",2019-09-23,5093,1,5155
+"Queensland",2019-09-23,3113,2,3150
+"New South Wales",2019-09-23,2101,3,2113
+"Western Australia",2019-09-23,908,4,963
+"Northern Territory",2019-09-24,5155,1,5183
+"Queensland",2019-09-24,3150,2,3205
+"New South Wales",2019-09-24,2113,3,2118
+"Western Australia",2019-09-24,963,4,987
+"Northern Territory",2019-09-25,5183,1,5264
+"Queensland",2019-09-25,3205,2,3220
+"Western Australia",2019-09-25,987,3,997
+"Northern Territory",2019-09-26,5264,1,5295
+"Queensland",2019-09-26,3220,2,3264
+"New South Wales",2019-09-26,2118,3,2165
+"Western Australia",2019-09-26,997,4,1022
+"Tasmania",2019-09-26,31,5,33
+"Victoria",2019-09-26,24,6,29
+"Northern Territory",2019-09-27,5295,1,5394
+"Queensland",2019-09-27,3264,2,3339
+"New South Wales",2019-09-27,2165,3,2186
+"Western Australia",2019-09-27,1022,4,1055
+"Northern Territory",2019-09-28,5394,1,5478
+"Queensland",2019-09-28,3339,2,3400
+"New South Wales",2019-09-28,2186,3,2194
+"Western Australia",2019-09-28,1055,4,1100
+"Northern Territory",2019-09-29,5478,1,5594
+"Queensland",2019-09-29,3400,2,3531
+"New South Wales",2019-09-29,2194,3,2195
+"Western Australia",2019-09-29,1100,4,1166
+"Northern Territory",2019-09-30,5594,1,5846
+"Queensland",2019-09-30,3531,2,3598
+"New South Wales",2019-09-30,2195,3,2197
+"Western Australia",2019-09-30,1166,4,1285
+"South Australia",2019-09-30,60,5,68
+"Northern Territory",2019-10-01,5846,1,5946
+"Queensland",2019-10-01,3598,2,3640
+"New South Wales",2019-10-01,2197,3,2199
+"Western Australia",2019-10-01,1285,4,1301
+"South Australia",2019-10-01,68,5,69
+"Victoria",2019-10-01,29,6,31
+"Northern Territory",2019-10-02,5946,1,6102
+"Queensland",2019-10-02,3640,2,3704
+"New South Wales",2019-10-02,2199,3,2202
+"Western Australia",2019-10-02,1301,4,1458
+"Victoria",2019-10-02,31,5,36
+"Northern Territory",2019-10-03,6102,1,6197
+"Queensland",2019-10-03,3704,2,3802
+"New South Wales",2019-10-03,2202,3,2213
+"Western Australia",2019-10-03,1458,4,1594
+"South Australia",2019-10-03,69,5,221
+"Victoria",2019-10-03,36,6,37
+"Northern Territory",2019-10-04,6197,1,6431
+"Queensland",2019-10-04,3802,2,3862
+"New South Wales",2019-10-04,2213,3,2224
+"Western Australia",2019-10-04,1594,4,1740
+"South Australia",2019-10-04,221,5,427
+"Northern Territory",2019-10-05,6431,1,6508
+"Queensland",2019-10-05,3862,2,3989
+"Western Australia",2019-10-05,1740,3,1773
+"South Australia",2019-10-05,427,4,447
+"Victoria",2019-10-05,37,5,39
+"Tasmania",2019-10-05,33,6,34
+"Northern Territory",2019-10-06,6508,1,6611
+"Queensland",2019-10-06,3989,2,4086
+"New South Wales",2019-10-06,2224,3,2286
+"Western Australia",2019-10-06,1773,4,1782
+"South Australia",2019-10-06,447,5,449
+"Northern Territory",2019-10-07,6611,1,6695
+"Queensland",2019-10-07,4086,2,4276
+"New South Wales",2019-10-07,2286,3,2630
+"Western Australia",2019-10-07,1782,4,1828
+"South Australia",2019-10-07,449,5,463
+"Northern Territory",2019-10-08,6695,1,6793
+"Queensland",2019-10-08,4276,2,4427
+"New South Wales",2019-10-08,2630,3,2698
+"Western Australia",2019-10-08,1828,4,1868
+"South Australia",2019-10-08,463,5,472
+"Northern Territory",2019-10-09,6793,1,6974
+"Queensland",2019-10-09,4427,2,4478
+"New South Wales",2019-10-09,2698,3,2701
+"Western Australia",2019-10-09,1868,4,1979
+"South Australia",2019-10-09,472,5,473
+"Northern Territory",2019-10-10,6974,1,7063
+"Queensland",2019-10-10,4478,2,4568
+"New South Wales",2019-10-10,2701,3,2702
+"Western Australia",2019-10-10,1979,4,2135
+"South Australia",2019-10-10,473,5,483
+"Victoria",2019-10-10,39,6,40
+"Northern Territory",2019-10-11,7063,1,7340
+"Queensland",2019-10-11,4568,2,4628
+"New South Wales",2019-10-11,2702,3,2705
+"Western Australia",2019-10-11,2135,4,2227
+"South Australia",2019-10-11,483,5,485
+"Northern Territory",2019-10-12,7340,1,7428
+"Queensland",2019-10-12,4628,2,4726
+"New South Wales",2019-10-12,2705,3,2706
+"Western Australia",2019-10-12,2227,4,2366
+"Victoria",2019-10-12,40,5,41
+"Tasmania",2019-10-12,34,6,35
+"Northern Territory",2019-10-13,7428,1,7767
+"Queensland",2019-10-13,4726,2,4779
+"Western Australia",2019-10-13,2366,3,2468
+"Northern Territory",2019-10-14,7767,1,7902
+"Queensland",2019-10-14,4779,2,4886
+"New South Wales",2019-10-14,2706,3,2715
+"Western Australia",2019-10-14,2468,4,2525
+"Victoria",2019-10-14,41,5,49
+"Northern Territory",2019-10-15,7902,1,8126
+"Queensland",2019-10-15,4886,2,4977
+"New South Wales",2019-10-15,2715,3,2716
+"Western Australia",2019-10-15,2525,4,2557
+"Northern Territory",2019-10-16,8126,1,8439
+"Queensland",2019-10-16,4977,2,5013
+"New South Wales",2019-10-16,2716,3,2742
+"Western Australia",2019-10-16,2557,4,2611
+"Northern Territory",2019-10-17,8439,1,8677
+"Queensland",2019-10-17,5013,2,5129
+"New South Wales",2019-10-17,2742,3,2785
+"Western Australia",2019-10-17,2611,4,2659
+"Northern Territory",2019-10-18,8677,1,9119
+"Queensland",2019-10-18,5129,2,5183
+"New South Wales",2019-10-18,2785,3,2921
+"Western Australia",2019-10-18,2659,4,2735
+"South Australia",2019-10-18,485,5,488
+"Northern Territory",2019-10-19,9119,1,9379
+"Queensland",2019-10-19,5183,2,5319
+"New South Wales",2019-10-19,2921,3,3002
+"Western Australia",2019-10-19,2735,4,2826
+"Northern Territory",2019-10-20,9379,1,10205
+"Queensland",2019-10-20,5319,2,5371
+"New South Wales",2019-10-20,3002,3,3053
+"Western Australia",2019-10-20,2826,4,3023
+"South Australia",2019-10-20,488,5,494
+"Northern Territory",2019-10-21,10205,1,10506
+"Queensland",2019-10-21,5371,2,5432
+"New South Wales",2019-10-21,3053,3,3135
+"Western Australia",2019-10-21,3023,4,3170
+"Victoria",2019-10-21,49,5,53
+"Tasmania",2019-10-21,35,6,39
+"Northern Territory",2019-10-22,10506,1,10746
+"Queensland",2019-10-22,5432,2,5490
+"Western Australia",2019-10-22,3170,3,3406
+"New South Wales",2019-10-22,3135,4,3174
+"South Australia",2019-10-22,494,5,576
+"Northern Territory",2019-10-23,10746,1,10819
+"Queensland",2019-10-23,5490,2,5518
+"Western Australia",2019-10-23,3406,3,3606
+"New South Wales",2019-10-23,3174,4,3210
+"Victoria",2019-10-23,53,5,54
+"Tasmania",2019-10-23,39,6,40
+"Northern Territory",2019-10-24,10819,1,10890
+"Queensland",2019-10-24,5518,2,5537
+"Western Australia",2019-10-24,3606,3,3782
+"New South Wales",2019-10-24,3210,4,3241
+"South Australia",2019-10-24,576,5,654
+"Northern Territory",2019-10-25,10890,1,10948
+"Queensland",2019-10-25,5537,2,5543
+"Western Australia",2019-10-25,3782,3,3927
+"New South Wales",2019-10-25,3241,4,3392
+"South Australia",2019-10-25,654,5,672
+"Northern Territory",2019-10-26,10948,1,10956
+"Queensland",2019-10-26,5543,2,5573
+"Western Australia",2019-10-26,3927,3,4105
+"New South Wales",2019-10-26,3392,4,3517
+"South Australia",2019-10-26,672,5,707
+"Northern Territory",2019-10-27,10956,1,10966
+"Queensland",2019-10-27,5573,2,5604
+"Western Australia",2019-10-27,4105,3,4301
+"New South Wales",2019-10-27,3517,4,3577
+"South Australia",2019-10-27,707,5,752
+"Victoria",2019-10-27,54,6,55
+"Northern Territory",2019-10-28,10966,1,10998
+"Queensland",2019-10-28,5604,2,5612
+"Western Australia",2019-10-28,4301,3,4426
+"New South Wales",2019-10-28,3577,4,3652
+"South Australia",2019-10-28,752,5,785
+"Tasmania",2019-10-28,40,6,43
+"Northern Territory",2019-10-29,10998,1,11063
+"Queensland",2019-10-29,5612,2,5621
+"Western Australia",2019-10-29,4426,3,4695
+"New South Wales",2019-10-29,3652,4,3667
+"South Australia",2019-10-29,785,5,824
+"Victoria",2019-10-29,55,6,84
+"Tasmania",2019-10-29,43,7,49
+"Northern Territory",2019-10-30,11063,1,11081
+"Western Australia",2019-10-30,4695,2,4936
+"New South Wales",2019-10-30,3667,3,3728
+"South Australia",2019-10-30,824,4,847
+"Northern Territory",2019-10-31,11081,1,11114
+"Queensland",2019-10-31,5621,2,5637
+"Western Australia",2019-10-31,4936,3,4982
+"New South Wales",2019-10-31,3728,4,3801
+"South Australia",2019-10-31,847,5,853
+"Tasmania",2019-10-31,49,6,59
+"Northern Territory",2019-11-01,11114,1,11171
+"Queensland",2019-11-01,5637,2,5644
+"Western Australia",2019-11-01,4982,3,5088
+"New South Wales",2019-11-01,3801,4,3852
+"Northern Territory",2019-11-02,11171,1,11191
+"Queensland",2019-11-02,5644,2,5670
+"Western Australia",2019-11-02,5088,3,5291
+"New South Wales",2019-11-02,3852,4,3864
+"South Australia",2019-11-02,853,5,855
+"Northern Territory",2019-11-03,11191,1,11197
+"Queensland",2019-11-03,5670,2,5684
+"Western Australia",2019-11-03,5291,3,5738
+"New South Wales",2019-11-03,3864,4,3895
+"South Australia",2019-11-03,855,5,863
+"Northern Territory",2019-11-04,11197,1,11208
+"Western Australia",2019-11-04,5738,2,5987
+"Queensland",2019-11-04,5684,3,5711
+"New South Wales",2019-11-04,3895,4,3925
+"Northern Territory",2019-11-05,11208,1,11266
+"Western Australia",2019-11-05,5987,2,6208
+"Queensland",2019-11-05,5711,3,5753
+"New South Wales",2019-11-05,3925,4,4058
+"South Australia",2019-11-05,863,5,866
+"Northern Territory",2019-11-06,11266,1,11278
+"Western Australia",2019-11-06,6208,2,6388
+"Queensland",2019-11-06,5753,3,5870
+"New South Wales",2019-11-06,4058,4,5393
+"South Australia",2019-11-06,866,5,872
+"Northern Territory",2019-11-07,11278,1,11305
+"Western Australia",2019-11-07,6388,2,6514
+"Queensland",2019-11-07,5870,3,6021
+"New South Wales",2019-11-07,5393,4,7665
+"South Australia",2019-11-07,872,5,874
+"Northern Territory",2019-11-08,11305,1,11340
+"New South Wales",2019-11-08,7665,2,8795
+"Western Australia",2019-11-08,6514,3,6663
+"Queensland",2019-11-08,6021,4,6249
+"Northern Territory",2019-11-09,11340,1,11420
+"New South Wales",2019-11-09,8795,2,9495
+"Western Australia",2019-11-09,6663,3,7026
+"Queensland",2019-11-09,6249,4,6496
+"Northern Territory",2019-11-10,11420,1,11495
+"New South Wales",2019-11-10,9495,2,9717
+"Western Australia",2019-11-10,7026,3,7176
+"Queensland",2019-11-10,6496,4,6547
+"South Australia",2019-11-10,874,5,876
+"Northern Territory",2019-11-11,11495,1,11514
+"New South Wales",2019-11-11,9717,2,11314
+"Western Australia",2019-11-11,7176,3,7275
+"Queensland",2019-11-11,6547,4,6746
+"Northern Territory",2019-11-12,11514,1,11542
+"New South Wales",2019-11-12,11314,2,11765
+"Western Australia",2019-11-12,7275,3,7483
+"Queensland",2019-11-12,6746,4,6864
+"New South Wales",2019-11-13,11765,1,12274
+"Northern Territory",2019-11-13,11542,2,11551
+"Western Australia",2019-11-13,7483,3,7602
+"Queensland",2019-11-13,6864,4,7044
+"New South Wales",2019-11-14,12274,1,13240
+"Northern Territory",2019-11-14,11551,2,11611
+"Western Australia",2019-11-14,7602,3,7820
+"Queensland",2019-11-14,7044,4,7152
+"South Australia",2019-11-14,876,5,878
+"New South Wales",2019-11-15,13240,1,13638
+"Northern Territory",2019-11-15,11611,2,11660
+"Western Australia",2019-11-15,7820,3,8005
+"Queensland",2019-11-15,7152,4,7299
+"New South Wales",2019-11-16,13638,1,13756
+"Northern Territory",2019-11-16,11660,2,11790
+"Western Australia",2019-11-16,8005,3,8345
+"Queensland",2019-11-16,7299,4,7571
+"Tasmania",2019-11-16,59,5,65
+"New South Wales",2019-11-17,13756,1,14106
+"Northern Territory",2019-11-17,11790,2,11825
+"Western Australia",2019-11-17,8345,3,8601
+"Queensland",2019-11-17,7571,4,7712
+"New South Wales",2019-11-18,14106,1,14993
+"Northern Territory",2019-11-18,11825,2,11886
+"Western Australia",2019-11-18,8601,3,8858
+"Queensland",2019-11-18,7712,4,7850
+"South Australia",2019-11-18,878,5,883
+"Tasmania",2019-11-18,65,6,69
+"New South Wales",2019-11-19,14993,1,15185
+"Northern Territory",2019-11-19,11886,2,12008
+"Western Australia",2019-11-19,8858,3,9123
+"Queensland",2019-11-19,7850,4,7902
+"Tasmania",2019-11-19,69,5,70
+"New South Wales",2019-11-20,15185,1,15684
+"Northern Territory",2019-11-20,12008,2,12022
+"Western Australia",2019-11-20,9123,3,9318
+"Queensland",2019-11-20,7902,4,8010
+"Tasmania",2019-11-20,70,5,71
+"New South Wales",2019-11-21,15684,1,16182
+"Northern Territory",2019-11-21,12022,2,12071
+"Western Australia",2019-11-21,9318,3,9497
+"Queensland",2019-11-21,8010,4,8038
+"New South Wales",2019-11-22,16182,1,16317
+"Northern Territory",2019-11-22,12071,2,12095
+"Western Australia",2019-11-22,9497,3,9724
+"Queensland",2019-11-22,8038,4,8161
+"Victoria",2019-11-22,84,5,100
+"New South Wales",2019-11-23,16317,1,16387
+"Northern Territory",2019-11-23,12095,2,12131
+"Western Australia",2019-11-23,9724,3,9996
+"Queensland",2019-11-23,8161,4,8227
+"Victoria",2019-11-23,100,5,143
+"Tasmania",2019-11-23,71,6,75
+"New South Wales",2019-11-24,16387,1,16541
+"Northern Territory",2019-11-24,12131,2,12143
+"Western Australia",2019-11-24,9996,3,10209
+"Queensland",2019-11-24,8227,4,8279
+"Victoria",2019-11-24,143,5,242
+"Tasmania",2019-11-24,75,6,77
+"New South Wales",2019-11-25,16541,1,16839
+"Northern Territory",2019-11-25,12143,2,12174
+"Western Australia",2019-11-25,10209,3,10345
+"Queensland",2019-11-25,8279,4,8322
+"South Australia",2019-11-25,883,5,884
+"Victoria",2019-11-25,242,6,243
+"New South Wales",2019-11-26,16839,1,16903
+"Northern Territory",2019-11-26,12174,2,12226
+"Western Australia",2019-11-26,10345,3,10597
+"Queensland",2019-11-26,8322,4,8328
+"New South Wales",2019-11-27,16903,1,17145
+"Northern Territory",2019-11-27,12226,2,12260
+"Western Australia",2019-11-27,10597,3,10644
+"Queensland",2019-11-27,8328,4,8373
+"Victoria",2019-11-27,243,5,249
+"New South Wales",2019-11-28,17145,1,17349
+"Northern Territory",2019-11-28,12260,2,12317
+"Western Australia",2019-11-28,10644,3,10715
+"Queensland",2019-11-28,8373,4,8413
+"South Australia",2019-11-28,884,5,885
+"Victoria",2019-11-28,249,6,292
+"New South Wales",2019-11-29,17349,1,17403
+"Northern Territory",2019-11-29,12317,2,12335
+"Western Australia",2019-11-29,10715,3,10810
+"Queensland",2019-11-29,8413,4,8505
+"South Australia",2019-11-29,885,5,887
+"Victoria",2019-11-29,292,6,293
+"New South Wales",2019-11-30,17403,1,17792
+"Northern Territory",2019-11-30,12335,2,12408
+"Western Australia",2019-11-30,10810,3,10922
+"Queensland",2019-11-30,8505,4,8590
+"Victoria",2019-11-30,293,5,294
+"New South Wales",2019-12-01,17792,1,18361
+"Northern Territory",2019-12-01,12408,2,12439
+"Western Australia",2019-12-01,10922,3,11056
+"Queensland",2019-12-01,8590,4,8762
+"New South Wales",2019-12-02,18361,1,19333
+"Northern Territory",2019-12-02,12439,2,12513
+"Western Australia",2019-12-02,11056,3,11107
+"Queensland",2019-12-02,8762,4,8925
+"New South Wales",2019-12-03,19333,1,20401
+"Northern Territory",2019-12-03,12513,2,12645
+"Western Australia",2019-12-03,11107,3,11280
+"Queensland",2019-12-03,8925,4,9095
+"Tasmania",2019-12-03,77,5,80
+"New South Wales",2019-12-04,20401,1,22089
+"Northern Territory",2019-12-04,12645,2,12779
+"Western Australia",2019-12-04,11280,3,11360
+"Queensland",2019-12-04,9095,4,9280
+"Tasmania",2019-12-04,80,5,85
+"New South Wales",2019-12-05,22089,1,23673
+"Northern Territory",2019-12-05,12779,2,12927
+"Western Australia",2019-12-05,11360,3,11555
+"Queensland",2019-12-05,9280,4,9421
+"Victoria",2019-12-05,294,5,299
+"Tasmania",2019-12-05,85,6,103
+"New South Wales",2019-12-06,23673,1,24664
+"Northern Territory",2019-12-06,12927,2,12956
+"Western Australia",2019-12-06,11555,3,11676
+"Queensland",2019-12-06,9421,4,9705
+"Victoria",2019-12-06,299,5,309
+"Tasmania",2019-12-06,103,6,104
+"New South Wales",2019-12-07,24664,1,24900
+"Northern Territory",2019-12-07,12956,2,13054
+"Western Australia",2019-12-07,11676,3,11904
+"Queensland",2019-12-07,9705,4,10001
+"Victoria",2019-12-07,309,5,326
+"Tasmania",2019-12-07,104,6,120
+"New South Wales",2019-12-08,24900,1,25598
+"Northern Territory",2019-12-08,13054,2,13082
+"Western Australia",2019-12-08,11904,3,12057
+"Queensland",2019-12-08,10001,4,10439
+"South Australia",2019-12-08,887,5,890
+"Victoria",2019-12-08,326,6,425
+"Tasmania",2019-12-08,120,7,121
+"New South Wales",2019-12-09,25598,1,26083
+"Northern Territory",2019-12-09,13082,2,13117
+"Western Australia",2019-12-09,12057,3,12181
+"Queensland",2019-12-09,10439,4,10556
+"Victoria",2019-12-09,425,5,440
+"Tasmania",2019-12-09,121,6,132
+"New South Wales",2019-12-10,26083,1,26140
+"Northern Territory",2019-12-10,13117,2,13142
+"Western Australia",2019-12-10,12181,3,12360
+"Queensland",2019-12-10,10556,4,10677
+"Victoria",2019-12-10,440,5,441
+"Tasmania",2019-12-10,132,6,134
+"New South Wales",2019-12-11,26140,1,26253
+"Northern Territory",2019-12-11,13142,2,13176
+"Western Australia",2019-12-11,12360,3,12475
+"Queensland",2019-12-11,10677,4,10794
+"South Australia",2019-12-11,890,5,896
+"New South Wales",2019-12-12,26253,1,26272
+"Northern Territory",2019-12-12,13176,2,13222
+"Western Australia",2019-12-12,12475,3,12743
+"Queensland",2019-12-12,10794,4,10908
+"Victoria",2019-12-12,441,5,445
+"Tasmania",2019-12-12,134,6,136
+"New South Wales",2019-12-13,26272,1,26620
+"Northern Territory",2019-12-13,13222,2,13255
+"Western Australia",2019-12-13,12743,3,13336
+"Queensland",2019-12-13,10908,4,11240
+"Victoria",2019-12-13,445,5,448
+"New South Wales",2019-12-14,26620,1,27083
+"Western Australia",2019-12-14,13336,2,13929
+"Northern Territory",2019-12-14,13255,3,13446
+"Queensland",2019-12-14,11240,4,11394
+"Victoria",2019-12-14,448,5,462
+"New South Wales",2019-12-15,27083,1,27812
+"Western Australia",2019-12-15,13929,2,14163
+"Northern Territory",2019-12-15,13446,3,13483
+"Queensland",2019-12-15,11394,4,11972
+"New South Wales",2019-12-16,27812,1,28300
+"Western Australia",2019-12-16,14163,2,14351
+"Northern Territory",2019-12-16,13483,3,13561
+"Queensland",2019-12-16,11972,4,12386
+"Victoria",2019-12-16,462,5,506
+"New South Wales",2019-12-17,28300,1,29334
+"Western Australia",2019-12-17,14351,2,14720
+"Northern Territory",2019-12-17,13561,3,13633
+"Queensland",2019-12-17,12386,4,12889
+"Victoria",2019-12-17,506,5,533
+"Tasmania",2019-12-17,136,6,140
+"New South Wales",2019-12-18,29334,1,30630
+"Western Australia",2019-12-18,14720,2,15540
+"Northern Territory",2019-12-18,13633,3,13759
+"Queensland",2019-12-18,12889,4,13319
+"South Australia",2019-12-18,896,5,965
+"Victoria",2019-12-18,533,6,598
+"New South Wales",2019-12-19,30630,1,31183
+"Western Australia",2019-12-19,15540,2,15803
+"Northern Territory",2019-12-19,13759,3,13861
+"Queensland",2019-12-19,13319,4,13648
+"South Australia",2019-12-19,965,5,1218
+"Victoria",2019-12-19,598,6,922
+"Tasmania",2019-12-19,140,7,194
+"New South Wales",2019-12-20,31183,1,32708
+"Western Australia",2019-12-20,15803,2,16129
+"Northern Territory",2019-12-20,13861,3,13960
+"Queensland",2019-12-20,13648,4,13919
+"South Australia",2019-12-20,1218,5,1297
+"Victoria",2019-12-20,922,6,1017
+"New South Wales",2019-12-21,32708,1,32783
+"Western Australia",2019-12-21,16129,2,16299
+"Northern Territory",2019-12-21,13960,3,14140
+"Queensland",2019-12-21,13919,4,14036
+"South Australia",2019-12-21,1297,5,1307
+"Victoria",2019-12-21,1017,6,1115
+"New South Wales",2019-12-22,32783,1,32943
+"Western Australia",2019-12-22,16299,2,16403
+"Northern Territory",2019-12-22,14140,3,14286
+"Queensland",2019-12-22,14036,4,14287
+"South Australia",2019-12-22,1307,5,1344
+"Victoria",2019-12-22,1115,6,1117
+"New South Wales",2019-12-23,32943,1,32960
+"Western Australia",2019-12-23,16403,2,16538
+"Queensland",2019-12-23,14287,3,14526
+"Northern Territory",2019-12-23,14286,4,14617
+"South Australia",2019-12-23,1344,5,1370
+"Victoria",2019-12-23,1117,6,1146
+"New South Wales",2019-12-24,32960,1,33064
+"Western Australia",2019-12-24,16538,2,16755
+"Northern Territory",2019-12-24,14617,3,14785
+"Queensland",2019-12-24,14526,4,14844
+"South Australia",2019-12-24,1370,5,1388
+"Victoria",2019-12-24,1146,6,1216
+"New South Wales",2019-12-25,33064,1,33271
+"Western Australia",2019-12-25,16755,2,17042
+"Queensland",2019-12-25,14844,3,15059
+"Northern Territory",2019-12-25,14785,4,15094
+"South Australia",2019-12-25,1388,5,1408
+"Victoria",2019-12-25,1216,6,1313
+"New South Wales",2019-12-26,33271,1,33643
+"Western Australia",2019-12-26,17042,2,17329
+"Northern Territory",2019-12-26,15094,3,15209
+"Queensland",2019-12-26,15059,4,15141
+"South Australia",2019-12-26,1408,5,1438
+"Victoria",2019-12-26,1313,6,1351
+"New South Wales",2019-12-27,33643,1,34413
+"Western Australia",2019-12-27,17329,2,17795
+"Northern Territory",2019-12-27,15209,3,15274
+"Queensland",2019-12-27,15141,4,15210
+"South Australia",2019-12-27,1438,5,1455
+"Victoria",2019-12-27,1351,6,1353
+"New South Wales",2019-12-28,34413,1,34876
+"Western Australia",2019-12-28,17795,2,18972
+"Northern Territory",2019-12-28,15274,3,15325
+"Queensland",2019-12-28,15210,4,15235
+"South Australia",2019-12-28,1455,5,1536
+"Victoria",2019-12-28,1353,6,1639
+"New South Wales",2019-12-29,34876,1,36993
+"Western Australia",2019-12-29,18972,2,19226
+"Northern Territory",2019-12-29,15325,3,15438
+"Queensland",2019-12-29,15235,4,15335
+"Victoria",2019-12-29,1639,5,3828
+"South Australia",2019-12-29,1536,6,1858
+"New South Wales",2019-12-30,36993,1,38021
+"Western Australia",2019-12-30,19226,2,19381
+"Northern Territory",2019-12-30,15438,3,15477
+"Queensland",2019-12-30,15335,4,15419
+"Victoria",2019-12-30,3828,5,4195
+"South Australia",2019-12-30,1858,6,1956
+"New South Wales",2019-12-31,38021,1,38548
+"Western Australia",2019-12-31,19381,2,20000
+"Northern Territory",2019-12-31,15477,3,15490
+"Queensland",2019-12-31,15419,4,15560
+"Victoria",2019-12-31,4195,5,4750
+"South Australia",2019-12-31,1956,6,2063
+"Tasmania",2019-12-31,194,7,245
+"New South Wales",2020-01-01,38548,1,39064
+"Western Australia",2020-01-01,20000,2,20919
+"Queensland",2020-01-01,15560,3,15712
+"Northern Territory",2020-01-01,15490,4,15529
+"Victoria",2020-01-01,4750,5,5435
+"South Australia",2020-01-01,2063,6,2236
+"Tasmania",2020-01-01,245,7,282
+"New South Wales",2020-01-02,39064,1,39900
+"Western Australia",2020-01-02,20919,2,20944
+"Queensland",2020-01-02,15712,3,15821
+"Northern Territory",2020-01-02,15529,4,15549
+"Victoria",2020-01-02,5435,5,6364
+"South Australia",2020-01-02,2236,6,2661
+"Tasmania",2020-01-02,282,7,314
+"New South Wales",2020-01-03,39900,1,43152
+"Western Australia",2020-01-03,20944,2,20993
+"Queensland",2020-01-03,15821,3,15896
+"Northern Territory",2020-01-03,15549,4,15550
+"Victoria",2020-01-03,6364,5,8313
+"South Australia",2020-01-03,2661,6,2685
+"Tasmania",2020-01-03,314,7,321
+"New South Wales",2020-01-04,43152,1,43287
+"Western Australia",2020-01-04,20993,2,21114
+"Queensland",2020-01-04,15896,3,15980
+"Northern Territory",2020-01-04,15550,4,15555
+"Victoria",2020-01-04,8313,5,8318
+"Tasmania",2020-01-04,321,6,333
+"New South Wales",2020-01-05,43287,1,43334
+"Western Australia",2020-01-05,21114,2,21431
+"Queensland",2020-01-05,15980,3,16027
+"Northern Territory",2020-01-05,15555,4,15557
+"South Australia",2020-01-05,2685,5,2722
+"Tasmania",2020-01-05,333,6,357
+"New South Wales",2020-01-06,43334,1,43354
+"Western Australia",2020-01-06,21431,2,22120
+"Queensland",2020-01-06,16027,3,16036
+"South Australia",2020-01-06,2722,4,2772
+"Tasmania",2020-01-06,357,5,373
+"New South Wales",2020-01-07,43354,1,43425
+"Western Australia",2020-01-07,22120,2,22535
+"Queensland",2020-01-07,16036,3,16088
+"Northern Territory",2020-01-07,15557,4,15558
+"Victoria",2020-01-07,8318,5,8370
+"South Australia",2020-01-07,2772,6,2800
+"New South Wales",2020-01-08,43425,1,43517
+"Western Australia",2020-01-08,22535,2,22545
+"Queensland",2020-01-08,16088,3,16129
+"Northern Territory",2020-01-08,15558,4,25
+"Victoria",2020-01-08,8370,5,8457
+"South Australia",2020-01-08,2800,6,2876
+"New South Wales",2020-01-09,43517,1,43664
+"Western Australia",2020-01-09,22545,2,22556
+"Queensland",2020-01-09,16129,3,16194
+"Victoria",2020-01-09,8457,4,8465
+"South Australia",2020-01-09,2876,5,2877
+"Tasmania",2020-01-09,373,6,376
+"New South Wales",2020-01-10,43664,1,44031
+"Western Australia",2020-01-10,22556,2,22595
+"Queensland",2020-01-10,16194,3,16265
+"Victoria",2020-01-10,8465,4,8606
+"South Australia",2020-01-10,2877,5,2882
+"New South Wales",2020-01-11,44031,1,51
+"Western Australia",2020-01-11,22595,2,4
+"Queensland",2020-01-11,16265,3,1
+"Victoria",2020-01-11,8606,4,26
+"South Australia",2020-01-11,2882,5,1
+"Tasmania",2020-01-11,376,6,2
