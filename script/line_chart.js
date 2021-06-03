@@ -103,10 +103,10 @@ d3.csv("/data/state_obv.csv", function (error, data) {
         .on("mouseout", onMouseOut);
 
     var curtain = svg.append("g").append("rect")
-        .attr("x", -1 * width)
+        .attr("x", -1 * width - 2)
         .attr("y", -1 * height - 1)
-        .attr("height", height + 5)
-        .attr("width", width + 3)
+        .attr("height", height + 3)
+        .attr("width", width + 2) 
         .attr("class", "curtain")
         .attr("transform", "rotate(180)")
         .style("fill", "rgb(32,33,36)");
@@ -152,7 +152,6 @@ d3.csv("/data/state_obv.csv", function (error, data) {
 
     // NSW legend
     legend.append("circle")
-        .attr("id", "nsw_circle")
         .attr("cx", 35)
         .attr("cy", 11)
         .attr("r", 6)
