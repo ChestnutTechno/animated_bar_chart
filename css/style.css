@@ -11,15 +11,15 @@ body {
     min-height: 90;
 }
 
-#title {
-    color: rgb(211,211,211);
+.title {
+    fill: rgb(211,211,211);
     font-size: 80px;
     padding: 10px;
     margin: 0;
 }
 
-#subtitle {
-    color: rgb(211,211,211);
+.subtitle {
+    fill: rgb(211,211,211);
     font-size:35px;
     padding: 10px;
 }
@@ -32,6 +32,13 @@ body {
 #bar_chart {
     background-color: rgb(32,33,36);
     width: 900px;
+}
+
+#map{
+    width: 960px;
+    height: 960px;
+    border-radius: 3px;
+    border: 2px solid rgb(211,211,211);
 }
 
 .axis line {
@@ -50,7 +57,6 @@ body {
 
 .line {
     fill: none;
-    stroke: steelblue;
     stroke-width: 2px;
 }
 
