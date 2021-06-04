@@ -4,11 +4,43 @@ html{
 
 body {
     font: 12px Helvetica;
+    background-color: rgb(32,33,36);
+}
+
+p {
+    color: rgb(211,211,211);
+}
+
+a{
+    color: rgb(229,196,148);
+}
+
+.fs-4 {
+    text-align: center;
+}
+
+.fs-1 {
+    text-align: center;
+}
+
+.section_end{
+    width: auto;
+    height: 60px;
 }
 
 #title_div {
-    min-width: 999;
-    min-height: 90;
+    padding: 10px;
+    margin: 10px;
+}
+
+#subtitle_div{
+    padding: 10px;
+    margin: 10px;
+}
+
+#body_tx{
+    padding: 10px;
+    margin: 10px;
 }
 
 .title {
@@ -22,6 +54,7 @@ body {
     fill: rgb(211,211,211);
     font-size:35px;
     padding: 10px;
+    margin: 0;
 }
 
 #line_chart_div{
@@ -37,8 +70,23 @@ body {
 #map{
     width: 960px;
     height: 960px;
-    border-radius: 3px;
-    border: 2px solid rgb(211,211,211);
+    border-radius: 10px;
+    border: 1px solid rgb(211,211,211);
+}
+
+#map_tool_tip {
+    width: auto;
+    height:35px;
+    position:absolute;
+    background-color: rgb(211,211,211);
+    display: none;
+    border: 1px solid black;
+}
+
+#map_tool_tip_tx {
+    color: rgb(32,33,36);
+    padding: 10px;
+    text-align: center;
 }
 
 .axis line {
