@@ -2,39 +2,411 @@
 <html>
 
 <head>
-    <title>Aus FIRE</title>
+    <title>Australian Bushfire</title>
     <!-- Import d3 -->
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <!-- import style sheet -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- import js -->
+
 
 </head>
 
 <body>
-    <div id="title_div">
-        <div id="title">
-            <script type="text/javascript" src="script/text_animation.js"></script>
-        </div>
-        <div id="subtitle"></div>
+    <!-- header (remove if needed)-->
+    <div id="header" style="width:100%;height: 80px;background-color:rgb(20,20,20);">
+        <p class="fs-5" style="padding: 30px;">FIT5147 Data visualisation project | Ce Fang - 31175759 - Lab 14</p>
     </div>
-    <div id="chart">
-        <div id="line_chart_div">
-            <script src="script/line_chart.js" type="text/javascript"></script>
-            <div id="line_chart_tooltip">
-                <p id="lct_text"></p>
+    <!-- container -->
+    <div class="container-xl">
+        <div class="row">
+
+            <div id="title_div" class="col">
+                <script type="text/javascript" src="script/text_animation.js"></script>
+            </div>
+            <p class="fs-5"
+                style="text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">
+                Author: Ce Fang</p>
+        </div>
+        <div class="row">
+            <div id="subtitle_div" class="col" style="padding:20px;">
+                <p class="fs-4"
+                    style="text-align: left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 40px; text-align: justify;">
+                    The infamous bushfire recorded during 2019 and 2020 in Australia has destroyed countless houses and
+                    habitats of wildlife. Until this visualisation project is finished, 33 people died as a result of
+                    the bushfires, including 9 firefighters. According to <a
+                        href="https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1920/Quick_Guides/AustralianBushfires"
+                        target="_blank">the Parliament of Australia</a>, 3094 houses had been destroyed, over 17 million
+                    hectares had been burned. As their conservative estimates, over one billion animals had been killed
+                    by bushfires.
+                </p>
+            </div>
+        </div>
+        <div class="section_end">
+            <svg height="100%" , width="100%">
+                <line x1="0" y1="30" x2="1400" y2="30" style="stroke:rgb(211,211,211);stroke-width:1" />
+            </svg>
+        </div>
+        <div class="row">
+            <div id="body_tx" class="col" style="padding:20px;">
+                <p class="fs-4"
+                    style="text-align: left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 40px;text-align: justify;">
+                    The datasets used to create this visualisation project is generated from one of the satellites of <a
+                        href="https://modis.gsfc.nasa.gov/" target="_blank">NASA (MODIS C6)</a>. The satellite can scan
+                    the surface of the Earth and detect spots that have an abnormally high temperature.
+                    The dataset can be downloaded from <a
+                        href="https://www.kaggle.com/carlosparadis/fires-from-space-australia-and-new-zeland"
+                        target="_blank">here</a>.
+                </p>
+                <p class="fs-4"
+                    style="text-align: left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 40px;text-align: justify;">
+                    On this page, data will be presented in different forms such as a multi-line chart, a racing bar
+                    chart, and a dot density map.
+                </p>
+                <p class="fs-4"
+                    style="text-align: left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 40px;text-align: justify;">
+                    The line chart below shows the daily observation in each state. Once the animation is stopped, you
+                    may click labels in the legend can temporarily hide other lines and highlight the one you are
+                    clicking.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 align-self-center">
+                <div class="row">
+                    <div id="body_tx">
+                        <p class="fs-4 fw-bold" style="text-align: left;font-family:'Gill Sans';">New South Wales and
+                            Victoria bushfires</p>
+                        <p class="fs-6" style="line-height: 25px;width:280px;text-align: justify;">Most of data in New
+                            South Wales and Victoria are from
+                            November
+                            2019 to December 2020. This is
+                            because that numbers of national parks in these two states were on fire. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col"><button id="rly_btn" type="button" class="btn btn-outline-light"
+                            style="width: fit-content;height: fit-content;">Replay</button></div>
+                    <div class="col"></div>
+                </div>
+
+            </div>
+            <div class="col-9">
+
+                <div id="line_chart_div">
+                    <script src="script/line_chart.js" type="text/javascript"></script>
+
+                    <div id="line_chart_tooltip">
+                        <p id="lct_text"></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="section_end">
+            <svg height="100%" , width="100%">
+                <line x1="0" y1="30" x2="1400" y2="30" style="stroke:rgb(211,211,211);stroke-width:1" />
+            </svg>
+        </div>
+        <div class="row">
+            <div id="body_tx" class="col" style="padding:20px;">
+                <p class="fs-4"
+                    style="text-align: left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 40px;text-align: justify;">
+                    A way to see the ranking of the number of records in each state is to create a racing bar chart. To
+                    rewatch the animation below, just simply reflesh the page.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-7">
+                <div id="bar_chart">
+                    <script src="script/bar_race.js" type="text/javascript"></script>
+                </div>
+            </div>
+
+            <div class="col-5 align-self-center">
+                <div class="row ">
+                    <div id="body_tx">
+                        <p class="fs-4 fw-bold" style="text-align: left;font-family:'Gill Sans';">Ranking of
+                            observations in each states</p>
+                        <p class="fs-6" style="line-height: 25px;text-align: justify;">
+                            The racing bar charts is based on the daily sum of fires. For example, the number of records
+                            in the third day is the sum of the number of records in the first, second and third day.
+                        </p>
+                        <p class="fs-6" style="line-height: 25px;text-align: justify;">
+                            We can see from the chart that, at the early phase of the series of bushfires, North
+                            Territory and Queensland were the worst affected by the fires. However, as we can conclude
+                            from previous line chart, New South Wales suddenly had a large number of records.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_end">
+            <svg height="100%" , width="100%">
+                <line x1="0" y1="30" x2="1400" y2="30" style="stroke:rgb(211,211,211);stroke-width:1" />
+            </svg>
+        </div>
+        <div class="row">
+            <div class="col-3 align-self-center">
+                <div class="row">
+                    <div id="body_tx">
+                        <p class="fs-4 fw-bold" style="text-align: left;font-family:'Gill Sans';">The Fire Map</p>
+                        <p class="fs-6" style="line-height: 25px;text-align: justify;">
+                            Each spot that was on fire is represented as a white dot on the map. Because there are
+                            around 11,000 records, each dot is approximately as big as one pixel. If all dots are shown,
+                            we can see that the North of Australia (such as the north of Western Australia, Northern
+                            Territory, and Queens-land) and the area near the coast of New South Wales and Victoria are
+                            much "whiter" than other areas. Coincidentally, the white area in New South Wales and
+                            Victoria is exactly the area of national parks that growing numerous <a
+                                href="https://www.nationalparks.nsw.gov.au/environments/eucalypt-forest-environments"
+                                target="_blank">eucalypt
+                                forest</a>. Eucalyptus produce eucalyptus oil, and the eucalyptus oil will vaporised
+                            when the temperature is high. This oil gas is <a
+                                href="https://www.gardeningknowhow.com/ornamental/trees/eucalyptus/eucalyptus-fire-hazards.htm"
+                                target="_blank">extremely flammable</a>. Therefore, these national
+                            parks are prone to cause bushfires. <a
+                                href="https://www.kqed.org/science/4209/eucalyptus-california-icon-fire-hazard-and-invasive-species"
+                                target="_blank">Same situations</a> also occured in California.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-5">
+                        <div class="row" style="padding:10px;">
+                            <button id="clr_dots_btn" type="button" class="btn btn-outline-light">Clear dots</button>
+                        </div>
+                        <div class="row" style="padding:10px;">
+                            <button id="show_dots_btn" type="button" class="btn btn-outline-light">Show all</button>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+
+                </div>
+                <div class="row">
+                    <div id="body_tx" style="border: 1px solid rgb(211,211,211);width: 300px;">
+                        <p class="fs-5" style="text-align: left;font-family:'Gill Sans';">Map instructions: </p>
+                        <p class="fs-6" style="line-height: 20px;text-align: justify;">
+                            - Hover mouse on the map to see total numbers of records in each states.
+                        </p>
+                        <p class="fs-6" style="line-height: 20px;text-align: justify;">
+                            - Click on each statas on the map to see every spots that were recorded as on fire in that
+                            states.
+                        </p>
+                        <p class="fs-6" style="line-height: 20px;text-align: justify;">
+                            - Click "Show all" to see all the spots that were recorded as on fire. Due to the volumes of
+                            data, it might take a while to show all dots.
+                        </p>
+                        <p class="fs-6" style="line-height: 20px;text-align: justify;">
+                            - Click "Clear dots" to remove all the dots from the map.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-9 align-self-center">
+                <div id="map">
+                    <script src="script/dot_map.js" type="text/javascript"></script>
+                </div>
             </div>
 
         </div>
-        <div id="bar_chart">
-            <script src="script/bar_race.js" type="text/javascript"></script>
+        <div class="section_end">
+            <svg height="100%" , width="100%">
+                <line x1="0" y1="30" x2="1400" y2="30" style="stroke:rgb(211,211,211);stroke-width:1" />
+            </svg>
+        </div>
+
+        <!-- in memory section -->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-11">
+                <p class="fs-1 fw-bold fst-italic" style="font-family:Cursive">In memory</p>
+                <br>
+                <p class="fs-6" style="font-family:Cursive;text-align:center;">The following list and thoughts are in no
+                    particular order of rank or preference.</p>
+                <br><br><br>
+                <p class="fs-4" style="font-family:Cursive">— Those brave and fearless firefighters who gave their lives
+                    to protect others —</p>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family:Cursive">Rick DeMorgan Jr (US)</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family:Cursive">Geoffrey Keaton</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family:Cursive">David Moresi</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family:Cursive">Paul Hudson (US)</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family:Cursive">Ian McBeth (US)</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family:Cursive">Andrew O’Dwyer</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family:Cursive">Mat Kavanagh</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family:Cursive">Samuel McPaul</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family:Cursive">Bill Slade</p>
+                    </div>
+                </div>
+                <br><br><br>
+                <p class="fs-4" style="font-family:Cursive">— Civilians who lost their lives due to bushfires —</p>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Fred Becker</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Patrick Salway</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Vivian Chaplain</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Robert Salway</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Clayton Lang</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">George Nole</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Chris Savva</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Julie Fletcher</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Dick Lang</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Ron Selth</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Bob Lindsey</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Barry Parsons</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Gwen Hyde</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Mick Roberts</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Laurie Andrew</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">John Butler</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">David Harrison</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Russell Bratby</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Michael Campbell </p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Ross Rixon</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Colin Burns</p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">Michael Clarke</p>
+                    </div>
+                    <div class="col">
+                        <p class="fs-4" style="font-family: cursive;">John Smith</p>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+
+        <div class="section_end">
+            <svg height="100%" , width="100%">
+                <line x1="0" y1="30" x2="1400" y2="30" style="stroke:rgb(211,211,211);stroke-width:1;" />
+            </svg>
+        </div>
+        <div class="row align-items-center" style="padding: 10px;">
+            <div class="col-5">
+                <p class="fs-6">Data source:</p>
+                <a class="fs-6" style="color: rgb(211,211,211);"
+                    href="https://www.kaggle.com/carlosparadis/fires-from-space-australia-and-new-zeland"
+                    target="_blank">
+                    https://www.kaggle.com/carlosparadis/fires-from-space-australia-and-new-zeland
+                </a>
+            </div>
+            <div class="col-2">
+                <svg width="100%" height="100">
+                    <line x1="96" y1="0" x2="96" y2="100" style="stroke:rgb(211,211,211);stroke-width:1;" />
+                </svg>
+            </div>
+            <div class="col-5">
+                <div class="row">
+                    <p class="fs-6">You can get this project from my <a
+                            href="https://github.com/ChestnutTechno/aus_fire_vis" target="_blank">Github
+                            repository</a></p>
+                </div>
+                <div class="row">
+                    <p class="fs-6">Email: cefang.christopher@gmail.com</p>
+                </div>
+                <div class="row">
+                    <p class="fs-6">LinkedIn: <a href="https://www.linkedin.com/in/ce-fang-46b55b1aa"
+                            target="_blank">www.linkedin.com/in/ce-fang-46b55b1aa</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div style="width: 100%; height: 40px;"></div>
+            </div>
         </div>
 
     </div>
+    <!-- footer (remove if needed)-->
+    <div id="footer" style="width:100%;height: 80px;background-color:rgb(20,20,20);">
+        <p class="fs-5" style="padding: 30px;text-align: center;">Thanks for your watching</p>
+    </div>
 
-    <div id="map">
-        <script src="script/dot_map.js" type="text/javascript"></script>
-    </div>
-    </div>
+
 
 </body>
 
