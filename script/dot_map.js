@@ -13,38 +13,105 @@ var m_svg = d3.select("#map")
     .attr("width", m_width)
     .attr("height", m_height)
     .attr("transform", "translate(" + m_margin.left + "," + m_margin.top + ")");
+d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/group_by_state.csv", function (sdata) {
+    d3.json("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/aus_map.geojson", function (json) {
+        d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/spatial_data.csv", function (data) {
+            var tooltip = d3.select("#map")
+                .append("div")
+                .attr("id", "map_tool_tip");
 
-d3.json("/data/aus_map.geojson", function (json) {
-    m_svg.append("g")
-        .attr("transform", "translate(0, 300)")
-        .selectAll("path")
-        .data(json.features)
-        .enter()
-        .append("path")
-        .attr("d", m_path)
-        .attr("id", function (d) {
-            return d.properties.STE_NAME16;
-        })
-        .attr("stroke", "rgb(211,211,211)")
-        .attr("fill", "rgb(32,33,36)")
+            var tx = tooltip.append("p")
+                .attr("id", "map_tool_tip_tx")
+                .text("tool tip test");
+
+
+            m_svg.append("g")
+                .attr("transform", "translate(0, 350)")
+                .selectAll("path")
+                .data(json.features)
+                .enter()
+                .append("path")
+                .attr("d", m_path)
+                .attr("id", function (d) {
+                    return d.properties.STE_NAME16.substring(0, 3);
+                })
+                .attr("stroke", "rgb(211,211,211)")
+                .attr("fill", "rgb(32,33,36)")
+                .on("mouseover", function () {
+                    var id = this.getAttribute("id")
+                    m_svg.select("#" + id)
+                        .transition()
+                        .duration(200)
+                        .attr("opacity", 0.4)
+                        .attr("fill", "rgb(211,211,211)");
+
+                    tooltip.style("display", "block");
+                    var s = sdata.filter(function (d) { return d.state.substring(0, 3) == id })[0];
+                    tx.text(s.state + " --- Number of observation: " + s.total);
+                })
+                .on("mousemove", function () {
+                    tooltip.style("top", (d3.event.pageY + 10) + "px")
+                        .style("left", (d3.event.pageX + 10) + "px");
+                })
+                .on("mouseout", function () {
+                    tooltip.style("display", "none");
+                    m_svg.selectAll("path")
+                        .transition()
+                        .duration(200)
+                        .attr("opacity", 1)
+                        .attr("fill", "rgb(32,33,36)");
+                })
+                .on("click", function (d) {
+                    var id = this.getAttribute("id");
+                    var filtered = data.filter(function (d) { return d.state.substring(0, 3) == id });
+                    var dot_layer = m_svg.append("g")
+                        .attr("class", "dot_layer")
+                        .attr("transform", "translate(0, 350)");
+                    var dots = dot_layer.selectAll("circle")
+                        .data(filtered)
+                        .enter()
+                        .append("circle")
+                        .attr("cx", function (d) {
+                            return projection([d.longitude, d.latitude])[0];
+                        })
+                        .attr("cy", function (d) {
+                            return projection([d.longitude, d.latitude])[1];
+                        })
+                        .attr("r", .5)
+                        .attr("opacity", 0.3)
+                        .attr("fill", "rgb(211,211,211)")
+                        .attr("class", "m_dot")
+                });
+
+
+            // clear dots button
+            d3.select("#clr_dots_btn")
+                .on("click", function () {
+                    m_svg.selectAll(".dot_layer")
+                        .remove();
+                });
+
+            // show all dots button
+            d3.select("#show_dots_btn")
+                .on("click", function () {
+                    var dot_layer = m_svg.append("g")
+                        .attr("class", "dot_layer")
+                        .attr("transform", "translate(0, 350)");
+                    var dots = dot_layer.selectAll("circle")
+                        .data(data)
+                        .enter()
+                        .append("circle")
+                        .attr("cx", function (d) {
+                            return projection([d.longitude, d.latitude])[0];
+                        })
+                        .attr("cy", function (d) {
+                            return projection([d.longitude, d.latitude])[1];
+                        })
+                        .attr("r", .5)
+                        .attr("opacity", .3)
+                        .attr("fill", "rgb(211,211,211)")
+                        .attr("class", "m_dot")
+                });
+        });
+    });
 });
-
-d3.csv("/data/spatial_data.csv", function (data) {
-    m_svg.append("g")
-        .attr("id", "dot_layer")
-        .attr("transform", "translate(0, 300)")
-        .selectAll("circle")
-        .data(data)
-        .enter()
-        .append("circle")
-        .attr("cx", function (d) {
-            return projection([d.longitude, d.latitude])[0];
-        })
-        .attr("cy", function (d) {
-            return projection([d.longitude, d.latitude])[1];
-        })
-        .attr("r", .5)
-        .attr("fill", "rgb(149,44,41)")
-        .attr("class", "m_dot");
-});
-

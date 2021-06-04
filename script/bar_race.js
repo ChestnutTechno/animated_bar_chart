@@ -1,5 +1,5 @@
 var b_margin = { top: 20, right: 50, bottom: 30, left: 50 },
-    b_width = 960 - margin.left - margin.right,
+    b_width = 800 - margin.left - margin.right,
     b_height = 300 - margin.top - margin.bottom;
 var bar_svg = d3.select("#bar_chart")
     .append("svg")
@@ -12,7 +12,7 @@ var color = d3.scale.ordinal();
 
 var duration = 190;
 
-d3.csv("/data/bar.csv", function (data) {
+d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/bar.csv", function (data) {
 
     var formatDate = d3.time.format("%Y-%m-%d");
     var parseDate = formatDate.parse;
@@ -103,7 +103,7 @@ d3.csv("/data/bar.csv", function (data) {
         })
         .html(time.substring(0, 7));
 
-    var delayTime = 1000;
+    var delayTime = 4400;
 
     //set delay
     setTimeout(function (d) {

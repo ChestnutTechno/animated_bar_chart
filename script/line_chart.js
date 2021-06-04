@@ -1,5 +1,5 @@
 var margin = { top: 20, right: 50, bottom: 30, left: 50 },
-    width = 800 - margin.left - margin.right,
+    width = 960 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
 var svg = d3.select("#line_chart_div")
@@ -40,7 +40,7 @@ var color = d3.scale.ordinal();
 
 
 var dateParse = d3.time.format("%Y-%m-%d").parse;
-d3.csv("/data/state_obv.csv", function (error, data) {
+d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/state_obv.csv", function (error, data) {
     if (error) { throw error };
     color.domain([
         "New South Wales",
@@ -106,7 +106,7 @@ d3.csv("/data/state_obv.csv", function (error, data) {
         .attr("x", -1 * width - 2)
         .attr("y", -1 * height - 1)
         .attr("height", height + 3)
-        .attr("width", width + 2) 
+        .attr("width", width + 2)
         .attr("class", "curtain")
         .attr("transform", "rotate(180)")
         .style("fill", "rgb(32,33,36)");
@@ -114,12 +114,10 @@ d3.csv("/data/state_obv.csv", function (error, data) {
     curtain
         .transition()
         .duration(30000)
-        .delay(1000)
+        .delay(5000)
         .ease("linear")
         .attr("x", -2 * width)
-    var replayButton = d3.select("#line_chart_div")
-        .append("button")
-        .text("Replay")
+    d3.select("#rly_btn")
         .on("click", repeatAnimation);
 
 
@@ -150,12 +148,25 @@ d3.csv("/data/state_obv.csv", function (error, data) {
 
     var legend = d3.select("#lc_legend");
 
+    var mousedown = function () {
+        var id = this.getAttribute("id");
+        svg.selectAll(".line").style("opacity", 0.1);
+        svg.select("#" + id).style("opacity", 1);
+    }
+
+    var mouseup = function () {
+        d3.selectAll(".line").style("opacity", 1);
+    }
+
     // NSW legend
     legend.append("circle")
+        .attr("id", "New")
         .attr("cx", 35)
         .attr("cy", 11)
         .attr("r", 6)
-        .style("fill", "#66c2a5");
+        .style("fill", "#66c2a5")
+        .on("mousedown", mousedown)
+        .on("mouseup", mouseup);
 
     legend.append("text")
         .attr("class", "lc_legend_tx")
@@ -166,10 +177,13 @@ d3.csv("/data/state_obv.csv", function (error, data) {
 
     // NT legend
     legend.append("circle")
+        .attr("id", "Nor")
         .attr("cx", 35)
         .attr("cy", 31)
         .attr("r", 6)
-        .style("fill", "#fc8d62");
+        .style("fill", "#fc8d62")
+        .on("mousedown", mousedown)
+        .on("mouseup", mouseup);
 
     legend.append("text")
         .attr("x", 50)
@@ -179,10 +193,13 @@ d3.csv("/data/state_obv.csv", function (error, data) {
 
     // QLD legend
     legend.append("circle")
+        .attr("id", "Que")
         .attr("cx", 35)
         .attr("cy", 51)
         .attr("r", 6)
-        .style("fill", "#8da0cb");
+        .style("fill", "#8da0cb")
+        .on("mousedown", mousedown)
+        .on("mouseup", mouseup);
 
     legend.append("text")
         .attr("x", 50)
@@ -192,10 +209,13 @@ d3.csv("/data/state_obv.csv", function (error, data) {
 
     // SA legend
     legend.append("circle")
+        .attr("id", "Sou")
         .attr("cx", 35)
         .attr("cy", 71)
         .attr("r", 6)
-        .style("fill", "#e78ac3");
+        .style("fill", "#e78ac3")
+        .on("mousedown", mousedown)
+        .on("mouseup", mouseup);
 
     legend.append("text")
         .attr("x", 50)
@@ -205,10 +225,13 @@ d3.csv("/data/state_obv.csv", function (error, data) {
 
     // TAS legend
     legend.append("circle")
+        .attr("id", "Tas")
         .attr("cx", 35)
         .attr("cy", 91)
         .attr("r", 6)
-        .style("fill", "#a6d854");
+        .style("fill", "#a6d854")
+        .on("mousedown", mousedown)
+        .on("mouseup", mouseup);
 
     legend.append("text")
         .attr("x", 50)
@@ -218,10 +241,13 @@ d3.csv("/data/state_obv.csv", function (error, data) {
 
     // VIC legend
     legend.append("circle")
+        .attr("id", "Vic")
         .attr("cx", 35)
         .attr("cy", 111)
         .attr("r", 6)
-        .style("fill", "#ffd92f");
+        .style("fill", "#ffd92f")
+        .on("mousedown", mousedown)
+        .on("mouseup", mouseup);
 
     legend.append("text")
         .attr("x", 50)
@@ -231,86 +257,23 @@ d3.csv("/data/state_obv.csv", function (error, data) {
 
     // WA legend
     legend.append("circle")
+        .attr("id", "Wes")
         .attr("cx", 35)
         .attr("cy", 131)
         .attr("r", 6)
-        .style("fill", "#e5c494");
+        .style("fill", "#e5c494")
+        .on("mousedown", mousedown)
+        .on("mouseup", mouseup);
 
     legend.append("text")
         .attr("x", 50)
         .attr("y", 135)
         .text("WA")
         .style("fill", "rgb(211,211,211)");
-
-
-    // var totalLength = [path[0][0].getTotalLength(),
-    // path[0][1].getTotalLength(),
-    // path[0][2].getTotalLength(),
-    // path[0][3].getTotalLength(),
-    // path[0][4].getTotalLength(),
-    // path[0][5].getTotalLength(),
-    // path[0][6].getTotalLength()];
-    // console.log(totalLength)
-
-    // d3.select(path[0][0])
-    //     .attr("stroke-dasharray", totalLength[0] + " " + totalLength[0])
-    //     .attr("stroke-dashoffset", totalLength[0])
-    //     .transition()
-    //     .duration(20000)
-    //     .ease("linear")
-    //     .attr("stroke-dashoffset", 0);
-
-    // d3.select(path[0][1])
-    //     .attr("stroke-dasharray", totalLength[1] + " " + totalLength[1])
-    //     .attr("stroke-dashoffset", totalLength[1])
-    //     .transition()
-    //     .duration(20000)
-    //     .ease("linear")
-    //     .attr("stroke-dashoffset", 0);
-
-    // d3.select(path[0][2])
-    //     .attr("stroke-dasharray", totalLength[2] + " " + totalLength[2])
-    //     .attr("stroke-dashoffset", totalLength[2])
-    //     .transition()
-    //     .duration(20000)
-    //     .ease("linear")
-    //     .attr("stroke-dashoffset", 0);
-
-    // d3.select(path[0][3])
-    //     .attr("stroke-dasharray", totalLength[3] + " " + totalLength[3])
-    //     .attr("stroke-dashoffset", totalLength[3])
-    //     .transition()
-    //     .duration(20000)
-    //     .ease("linear")
-    //     .attr("stroke-dashoffset", 0);
-
-    // d3.select(path[0][4])
-    //     .attr("stroke-dasharray", totalLength[4] + " " + totalLength[4])
-    //     .attr("stroke-dashoffset", totalLength[4])
-    //     .transition()
-    //     .duration(20000)
-    //     .ease("linear")
-    //     .attr("stroke-dashoffset", 0);
-
-    // d3.select(path[0][5])
-    //     .attr("stroke-dasharray", totalLength[5] + " " + totalLength[5])
-    //     .attr("stroke-dashoffset", totalLength[5])
-    //     .transition()
-    //     .duration(20000)
-    //     .ease("linear")
-    //     .attr("stroke-dashoffset", 0);
-
-    // d3.select(path[0][6])
-    //     .attr("stroke-dasharray", totalLength[6] + " " + totalLength[6])
-    //     .attr("stroke-dashoffset", totalLength[6])
-    //     .transition()
-    //     .duration(20000)
-    //     .ease("linear")
-    //     .attr("stroke-dashoffset", 0);
 });
 
 var onMouseOver = function () {
-    d3.selectAll(".line").style("opacity", 0.2);
+    d3.selectAll(".line").style("opacity", 0.1);
 }
 
 var onMouseMove = function (d) {
