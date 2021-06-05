@@ -13,9 +13,22 @@ var m_svg = d3.select("#map")
     .attr("width", m_width)
     .attr("height", m_height)
     .attr("transform", "translate(" + m_margin.left + "," + m_margin.top + ")");
+
+
 d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/group_by_state.csv", function (sdata) {
     d3.json("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/aus_map.geojson", function (json) {
         d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/spatial_data.csv", function (data) {
+            
+        // configure map colors
+        var m_color = d3.scale.ordinal();
+            s_sub = []
+            for (let index = 0; index < color.domain().length; index++) {
+                const element = color.domain()[index];
+                s_sub.push(element.substring(0, 3));
+
+            }
+            m_color.domain(s_sub).range(color.range());
+
             var tooltip = d3.select("#map")
                 .append("div")
                 .attr("id", "map_tool_tip");
@@ -42,8 +55,10 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
                     m_svg.select("#" + id)
                         .transition()
                         .duration(200)
-                        .attr("opacity", 0.4)
-                        .attr("fill", "rgb(211,211,211)");
+                        .attr("opacity", .3)
+                        .attr("fill", function () {
+                            return m_color(id);
+                        });
 
                     tooltip.style("display", "block");
                     var s = sdata.filter(function (d) { return d.state.substring(0, 3) == id })[0];

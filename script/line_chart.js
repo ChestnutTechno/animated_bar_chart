@@ -1,3 +1,8 @@
+/*
+this part of code is adapted from http://bl.ocks.org/atmccann/8966400 
+and https://bl.ocks.org/phvaillant/53b90038b9c5ac5f6b817a4f63fbc2af
+ */
+
 var margin = { top: 20, right: 50, bottom: 30, left: 50 },
     width = 960 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
@@ -283,10 +288,3 @@ var onMouseMove = function (d) {
 var onMouseOut = function () {
     d3.selectAll(".line").style("opacity", 1);
 }
-
-// var onClick = function (d) {
-//     d3.selectAll(".line").style("opacity", 0.2);
-//     console.log("opacity set to 0.2");
-//     d3.select("#" + d).style("opacity", 1);
-//     console.log("highlight line");
-// }

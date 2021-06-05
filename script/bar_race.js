@@ -1,3 +1,7 @@
+/*
+ this part of code is adapted from: https://bl.ocks.org/jrzief/70f1f8a5d066a286da3a1e699823470f
+ */
+
 var b_margin = { top: 20, right: 50, bottom: 30, left: 50 },
     b_width = 800 - margin.left - margin.right,
     b_height = 300 - margin.top - margin.bottom;
@@ -107,6 +111,7 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
 
     //set delay
     setTimeout(function (d) {
+        // set timer
         let ticker = setInterval(function (e) {
             dateSlice = data.filter(function (d) { return d.acq_date == time })
                 .slice(0, 3);
