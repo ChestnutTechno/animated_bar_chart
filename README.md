@@ -1,1 +1,1 @@
-# animated_bar_chart
+# This is the final visualisation project of FIT5147

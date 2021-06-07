@@ -40,13 +40,18 @@ var line = d3.svg.line().interpolate("monotone")
     .x(function (d) { return x(d.date) })
     .y(function (d) { return y(d.number) });
 
+// create line color scale
 var color = d3.scale.ordinal();
 
 
 
 var dateParse = d3.time.format("%Y-%m-%d").parse;
+// The following data is accessed remotely. The URL is the Github repository of this project
+// The data processing and normalisation code is in data processing directory
 d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/state_obv.csv", function (error, data) {
     if (error) { throw error };
+
+    // set color domain and color range
     color.domain([
         "New South Wales",
         "Northern Territory",
@@ -58,10 +63,12 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
     ]);
     color.range(['#66c2a5', '#fc8d62', '#8da0cb', '#e78ac3', '#a6d854', '#ffd92f', '#e5c494']);
 
+    // format date
     data.forEach(function (d) {
         d.acq_date = dateParse(d.acq_date);
     });
 
+    // mapping data
     var states = color.domain().map(function (name) {
         return {
             name: name,
@@ -71,28 +78,34 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
         };
     });
 
+    // set x axis domain
     x.domain(d3.extent(data, function (d) { return d.acq_date }));
 
+    // set y axis domain
     y.domain([
         0,
         d3.max(states, function (c) { return d3.max(c.values, function (v) { return v.number; }); })
     ]);
 
+    // add x axis to the svg
     svg.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis);
 
+    // add y axis to the svg
     svg.append("g")
         .attr("class", "y axis")
         .call(yAxis);
 
+    // binding states' data
     svg.selectAll(".state")
         .data(states)
         .enter()
         .append("g")
         .attr("class", "state");
 
+    // add all lines to svg
     var path = svg.selectAll(".state")
         .append("path")
         .attr("id", function (d) { return d.name.substring(0, 3); })
@@ -102,11 +115,15 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
             return color(d.name);
         });
 
+    // add interaction to every lines
     svg.selectAll(".line")
         .on("mouseover", onMouseOver)
         .on("mousemove", onMouseMove)
         .on("mouseout", onMouseOut);
 
+    // add a "curtain" to temporarily hide all lines
+    // it is actually a svg rectangle that has same 
+    // color with background
     var curtain = svg.append("g").append("rect")
         .attr("x", -1 * width - 2)
         .attr("y", -1 * height - 1)
@@ -116,16 +133,20 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
         .attr("transform", "rotate(180)")
         .style("fill", "rgb(32,33,36)");
 
+    // add animation to the "curtain"
+    // it will slowly slide to the left
     curtain
         .transition()
         .duration(30000)
         .delay(5000)
         .ease("linear")
         .attr("x", -2 * width)
+    
+    // add on click listener to the replay button
     d3.select("#rly_btn")
         .on("click", repeatAnimation);
 
-
+    // replay curtain animation
     function repeatAnimation() {
         curtain
             .transition()
@@ -153,6 +174,7 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
 
     var legend = d3.select("#lc_legend");
 
+    // create interaction to labels
     var mousedown = function () {
         var id = this.getAttribute("id");
         svg.selectAll(".line").style("opacity", 0.1);

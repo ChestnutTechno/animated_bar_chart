@@ -14,7 +14,8 @@ var m_svg = d3.select("#map")
     .attr("height", m_height)
     .attr("transform", "translate(" + m_margin.left + "," + m_margin.top + ")");
 
-
+// The following data is accessed remotely. The URL is the Github repository of this project
+// The data processing and normalisation code is in data processing directory
 d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/group_by_state.csv", function (sdata) {
     d3.json("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/aus_map.geojson", function (json) {
         d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/spatial_data.csv", function (data) {

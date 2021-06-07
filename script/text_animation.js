@@ -1,3 +1,4 @@
+// title animation
 var title_svg = d3.select("#title_div")
     .append("svg")
     .attr("width", 1300)

@@ -14,13 +14,18 @@ var bar_svg = d3.select("#bar_chart")
 
 var color = d3.scale.ordinal();
 
+// set all animation's duration in racing
 var duration = 190;
 
+// The following data is accessed remotely. The URL is the Github repository of this project
+// The data processing and normalisation code is in data processing directory
 d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/bar.csv", function (data) {
 
+    // set data formatter and parser
     var formatDate = d3.time.format("%Y-%m-%d");
     var parseDate = formatDate.parse;
 
+    // set color domain and range
     color.domain([
         "New South Wales",
         "Northern Territory",
@@ -38,30 +43,41 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
         d.rank = +d.rank;
     });
 
+    // set the initial time
     var time = "2019-08-01"
 
+    // filter the all data to a small cluster of one-day data
     var dateSlice = data.filter(function (d) { return d.acq_date == time })
         .slice(0, 3);
 
+    // set x axis range and domain
     var barX = d3.scale.linear()
         .domain([0, d3.max(dateSlice, function (d) { return d.cumu_sum })])
         .range([0, b_width]);
 
+    /*
+    set y axis range and domain
+    y axis will not be shown on the svg but it will be used 
+    to give each bar a position and a rank.
+    */
     var barY = d3.scale.linear()
         .domain([3, 0])
         .range([b_height, 0]);
 
+    // set x axis style
     var xAx = d3.svg.axis()
         .scale(barX)
         .ticks(width > 500 ? 5 : 2)
         .innerTickSize(-(b_height))
         .orient("top");
 
+    // add x axis to the svg
     bar_svg.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0," + b_margin.top + ")")
         .call(xAx);
 
+    // add bars to the svg
     bar_svg.selectAll("rect")
         .data(dateSlice, function (d) { return d.state })
         .enter()
@@ -73,6 +89,8 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
         .attr("height", 20)
         .style("fill", function (d) { return color(d.state); });
 
+    // add labels to each bar
+    // the label text is the name of each state
     bar_svg.selectAll("text.label")
         .data(dateSlice, function (d) { return d.state })
         .enter()
@@ -83,6 +101,7 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
         .attr("text-anchor", "end")
         .html(function (d) { return d.state });
 
+    // add values to each bar
     bar_svg.selectAll("text.bar_val")
         .data(dateSlice, function (d) { return d.state })
         .enter()
@@ -92,6 +111,7 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
         .attr("y", function (d) { return barY(d.rank) - 15 })
         .text(function (d) { return d.cumu_sum });
 
+    // add a timestamp on the svg to show the date of the current one-day data
     var timeStamp = bar_svg.append("text")
         .attr("class", "bar_time")
         .attr("x", b_width + b_margin.right)
@@ -107,25 +127,31 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
         })
         .html(time.substring(0, 7));
 
+    // set delay time to delay animation and give time for processing map data
     var delayTime = 4400;
 
     //set delay
     setTimeout(function (d) {
         // set timer
         let ticker = setInterval(function (e) {
+            // after interval change one-day data to the next date
             dateSlice = data.filter(function (d) { return d.acq_date == time })
                 .slice(0, 3);
 
+            // change x axis domain
             barX.domain([0, d3.max(dateSlice, function (d) { return d.cumu_sum })]);
 
+            // strech or contrast the x axis based on domain
             bar_svg.select(".axis")
                 .transition()
                 .duration(duration)
                 .ease("linear")
                 .call(xAx);
 
+            // select all bars
             var bars = bar_svg.selectAll(".bar").data(dateSlice, function (d) { return d.state });
 
+            // add new bars
             bars
                 .enter()
                 .append("rect")
@@ -134,18 +160,16 @@ d3.csv("https://raw.githubusercontent.com/ChestnutTechno/aus_fire_vis/main/data/
                 .attr("width", function (d) { return barX(d.cumu_sum) - barX(0) - 1 })
                 .attr("y", barY(4) - 30)
                 .attr("height", 20)
-                .style("fill", function (d) { return color(d.state); })
-                .transition()
-                .duration(duration)
-                .ease("linear")
-                .attr("y", function (d) { return barY(d.rank) - 30 });
+                .style("fill", function (d) { return color(d.state); });
 
+            // add amination
             bars.transition()
                 .duration(duration)
                 .ease("linear")
                 .attr("width", function (d) { return barX(d.cumu_sum) - barX(0) - 1 })
                 .attr("y", function (d) { return barY(d.rank) - 30 });
 
+            // remove old bars
             bars
                 .exit()
                 .transition()
